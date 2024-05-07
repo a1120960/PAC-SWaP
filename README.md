@@ -7,13 +7,10 @@ Portable Atomic Clocks - Size, Weight and Power
 
 ## SWaP considerations
 For clarification on how I have arrived at each metric.
-1. Size: Choice of volume units is arbitrary, but herein I have used the unts of cm<sup>3</sup>. Total size includes everything required for actual operation.  
-2. Weight: Units of kgs. I have used the weight of the entire device. Everything required for actual operation
-3. Power: Units of Watts. I have used the power the entire device. Everything required for actual operation
-
-
-# DISCLAIMER
-- I dont claim that this is a comprehensive database of every single device, however I plan to keep it updated as new devices/results are published/announced. As well as adding anything current or from the past that I may have missed.
+1. Size: Choice of volume units is arbitrary, but herein I have used the unts of cm<sup>3</sup>. Total size includes all system components required for actual operation.
+    - for example: physics package + photonics + external cavity + fequency comb = total size. 
+2. Weight: Units of kgs. I have used the weight of the entire device. As per Size,  weight of everything required for actual operation. 
+3. Power: Units of Watts. I have used the power of the entire device. As per Size and Weight, the power demand of everything required for actual operation.
 
 
 # DATA and PLOTTING
@@ -24,3 +21,7 @@ For clarification on how I have arrived at each metric.
 
 - All code for plots is kept in the PLOTTING.ipynb notebook.
 - I dont claim to be an expert at python or plotly, so any help or adivce on how to make these plots 'better' would be much appreciated. 
+
+
+# DISCLAIMER
+- I dont claim that this is a comprehensive database of every single device, however I plan to keep it updated as new devices/results are published/announced. As well as adding anything current or from the past that I may have missed.
