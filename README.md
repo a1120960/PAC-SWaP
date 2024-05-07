@@ -10,10 +10,11 @@ Portable Atomic Clocks - Size, Weight and Power
 - I dont claim that this is a comprehensive database of every single device, however I plan to keep it updated as new devices/results are published/announced. As well as adding anything current or from the past that I may have missed.
 
 
-# DATA
+# DATA and PLOTTING
 - All data is contained in the SWAP_DATA.csv file on the main branch.
 - Performance and SWaP numbers have been taken from publications, official websties, or spec sheets. Where this was not possible I contacted the authors or manufacturer. 
 - In all cases I have attempted to present the numbers accurately and in good faith.
 - If i have made any mistakes, or the numbers need to be updated, please let me know.
 
-
+- All code for plots is kept in the PLOTTING.ipynb notebook.
+- I dont claim to be an expert at python or plotly, so any help or adivce on how to make these plots 'better' would be much appreciated. 
