@@ -1,12 +1,19 @@
 # PAC-SWaP
-Portable Atomic Clocks - Size, Weight and Power
+Portable Atomic Clocks - Size, Weight and Power repository.
 
 
 # PURPOSE
-- This repository is inteneded to be a resource for those interested in the growing world of portable atomic clocks. Specifically looking at the barriers to deployment: the Size, Weight and Power (SWaP) of the clock, and how these affects clock performance.
+- This repository is inteneded to be a resource for those interested in the growing world of portable atomic clocks. Specifically looking at the barriers to deployment: the Size, Weight and Power (SWaP) of the clock, and how these affects clock performance. 
+- At this point I wont claim it is an authority on PAC-SWaP, but will hopefully serve as the starting point for literature reviews and the like. 
+- Over time I'd like this respository to track the progress of clock technology as the new generation of optical atomic clocks leave the labratory and become commercially available. 
+- The all data and plots shown from the IPAS page [ipas link] and the repository page [insert github pages link] will be available in this respository. 
 
 # INCLUSION
 - Clocks are included that are **portable**. This might be an obvious quality (for example the CSAC), or something that is stated in a publication. In a general sense it is a clock that can be moved and operate outside of the labratory.
+## Portabilty vs Deployability
+- At the moment the two terms will be used interchangeably. However they do have different meanings with respect to clocks:
+    - **Portable**: A clock that can be taken outside the labratory, but not neccessarily taken anywhere. For example it may need specific power demands, vehicle access etc. 
+    - **Deploayable**: A clock that can be moved and used across varied enviroments. 
 
 
 # FOCUS
@@ -26,6 +33,7 @@ Portable Atomic Clocks - Size, Weight and Power
 # DATA and PLOTTING
 - All data is contained in the SWAP_DATA.csv file on the main branch.
 - Performance and SWaP numbers have been taken from publications, official websties, or spec sheets. Where this was not possible I contacted the authors or manufacturer. 
+- References (where available) are all in SWAP_DATA.csv 
 - In all cases I have attempted to present the numbers accurately and in good faith.
 - If i have made any mistakes, or the numbers need to be updated, please let me know.
 
@@ -33,9 +41,12 @@ Portable Atomic Clocks - Size, Weight and Power
 - I dont claim to be an expert at python or plotly, so any help or adivce on how to make these plots 'better' would be much appreciated. 
 
 # FUTURE
-- I would like to extend SWaP to also include other barriers to deployability:
-    - **Cost**: How much does the system cost? For research clocks this may be hard/not possible to determine. 
+- I would like to extend **SWaP** to **SWaP-PC**, which would include other significant barriers to deployability:
     - **Personel**: How many people are required to run the system? For many of the modern portabloe systems this may be a single person to turn the key and begin operation. Research clocks may need an entire team of people to set up and run the clock.
+    - **Cost**: How much does the system cost? For research clocks this may be hard/not possible to determine. 
+
+- As clock technology progresses, I would like the focus to be more on deployable clocks.
+
 
 
 # DISCLAIMER
