@@ -7,7 +7,7 @@ Portable Atomic Clocks - Size, Weight and Power
 
 ## SWaP considerations
 For clarification on how I have arrived at each metric.
-1. Size: Choice of volume units is arbitrary, but herein I have used the unts of cm$^3$. Total size includes everything required for actual operation.  
+1. Size: Choice of volume units is arbitrary, but herein I have used the unts of cm<sup>3</sup>. Total size includes everything required for actual operation.  
 2. Weight: Units of kgs. I have used the weight of the entire device. Everything required for actual operation
 3. Power: Units of Watts. I have used the power the entire device. Everything required for actual operation
 
