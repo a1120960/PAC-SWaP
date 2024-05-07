@@ -2,8 +2,14 @@
 Portable Atomic Clocks - Size, Weight and Power
 
 
-# AIM
+# PURPOSE
 - This repository is inteneded to be a resource for those interested in the growing world of portable atomic clocks. Specifically looking at the barriers to deployment: the Size, Weight and Power (SWaP) of the clock, and how this affects clock performance.
+
+## SWaP considerations
+For clarification on how I have arrived at each metric.
+1. Size: Choice of volume units is arbitrary, but herein I have used the unts of cm$^3$. Total size includes everything required for actual operation.  
+2. Weight: Units of kgs. I have used the weight of the entire device. Everything required for actual operation
+3. Power: Units of Watts. I have used the power the entire device. Everything required for actual operation
 
 
 # DISCLAIMER
