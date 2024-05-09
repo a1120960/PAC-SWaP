@@ -1,3 +1,7 @@
 body {
     font-family: sans-serif;
 }
+
+iframe {
+    border: none; /* This removes the border */
+}
