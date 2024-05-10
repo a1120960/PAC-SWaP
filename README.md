@@ -12,6 +12,9 @@ Portable Atomic Clocks - Size, Weight and Power repository.
 # INCLUSION
 - Clocks are included that are **portable**. This might be an obvious quality (for example the CSAC), or something that is stated in a publication. In a general sense it is a clock that can be moved and operate outside of the labratory.
 - Must have some perfromaance measured and available - publication, pre-publication, spec sheet etc
+- The INCLUDE field in the SWAP_DATA.csv determines wether a clock will be in the plot. examples of why this might be set to 0:
+    - There may be some clocks that have currently don't have enough data to be plotted.
+    - There may be some clocks that have some debate about wether they meet the criteria, for example the CSO.
 
 ## Portabilty vs Deployability
 - At the moment the two terms will be used interchangeably. However they do have different meanings with respect to clocks:
