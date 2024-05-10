@@ -12,9 +12,10 @@ Portable Atomic Clocks - Size, Weight and Power repository.
 # INCLUSION
 - Clocks are included that are **portable**. This might be an obvious quality (for example the CSAC), or something that is stated in a publication. In a general sense it is a clock that can be moved and operate outside of the labratory.
 - Must have some perfromaance measured and available - publication, pre-publication, spec sheet etc
+- At this point I have only included the most common current microwave atomic clocks. There are more, however the intention is to compare the new generation of portable optical atomic clocks to those clocks that currently represent the gold standard. 
 - The INCLUDE field in the SWAP_DATA.csv determines wether a clock will be in the plot. examples of why this might be set to 0:
     - There may be some clocks that have currently don't have enough data to be plotted.
-    - There may be some clocks that have some debate about wether they meet the criteria, for example the CSO.
+    - There may be some clocks that have some debate about wether they meet the current criteria, for example the cryogenic sapphire oscillator (CSO)
 
 ## Portabilty vs Deployability
 - At the moment the two terms will be used interchangeably. However they do have different meanings with respect to clocks:
@@ -32,7 +33,7 @@ Portable Atomic Clocks - Size, Weight and Power repository.
     - **Power**: Units of Watts. I have used the power of the entire device. As per Size and Weight, the power demand of everything required for actual operation.
 
 ## Performance 
-- Clock variability (ADEV) has been used. Plots are initially drawn using a 1 second integration time, and subsequent plots can be created using longer integration times if available.
+- Clock variability (ADEV) has been used. Plots are initially drawn using a 1 second integration time, and subsequent plots can be created using longer integration times if and where available.
 
 
 
