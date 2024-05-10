@@ -12,10 +12,11 @@ Portable Atomic Clocks - Size, Weight and Power repository.
 # INCLUSION
 - Clocks are included that are **portable**. This might be an obvious quality (for example the CSAC), or something that is stated in a publication. In a general sense it is a clock that can be moved and operate outside of the labratory.
 - Must have some perfromaance measured and available - publication, pre-publication, spec sheet etc
+
 ## Portabilty vs Deployability
 - At the moment the two terms will be used interchangeably. However they do have different meanings with respect to clocks:
-    - **Portable**: A clock that can be taken outside the labratory, but not neccessarily taken anywhere. For example it may need specific power demands, vehicle access etc. 
-    - **Deploayable**: A clock that can be moved and used across varied enviroments. 
+    - **Portable**: A clock that can be taken outside the labratory, but not neccessarily taken anywhere. For example it may need specific power demands, vehicle access, extended time to setup etc. 
+    - **Deploayable**: A clock that can be moved and used across varied enviroments, can be setup and running quickly. 
 
 
 # FOCUS
