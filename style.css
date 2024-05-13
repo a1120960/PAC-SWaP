@@ -4,6 +4,17 @@ body {
     background-color: #f9f9f9; /* slightly off-white color */
 }
 
+h1 {
+    padding-top: 40px;
+    padding-bottom: 0px;
+  }
+
+  h2 {
+    padding-top: 40px;
+    padding-bottom: 0px;
+  }
+
+
 iframe {
     border: none; /* This removes the border */
 }
