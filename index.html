@@ -11,11 +11,8 @@
     Throughout history advances in precision timekeeping gone hand in hand with other 
     technological revolutions. 
     Microwave atomic clocks are an essential part of modern infrastructure. 
-    Now as optical atomic clocks are now begining to leave the laboratory and enter the field,  
-</p>
-
-<p class="text-block"> This information is in inteneded to be a resource for those interested in the growing world of portable atomic clocks. 
-    Specifically looking at the barriers to deployment: the Size, Weight and Power (SWaP) of the clock, and how these affects clock performance.
+    Now as optical atomic clocks are now beginning to leave the laboratory and enter the field,  
+   The following information is in intended to be a resource for those interested in the growing world of portable atomic clocks. Specifically looking at the immediate barriers to deployment: the Size, Weight and Power (SWaP) of the clock, and how these affects clock performance.
 </p>    
     
 <p class="text-block">
@@ -28,40 +25,65 @@ How I define SWaP, the inclusion criteria, as well as all of the source data can
 
 <p class="text-block">
 <em>
-**For the best viewing experience its recomended viewing this website using a desktop or laptop computer rather than a mobile device.
+**For the best viewing experience its recommended viewing this website using a desktop or laptop computer rather than a mobile device.
 </em>
-
 </p>
+
 <h2 id="main-plot">SWaP vs Performance plot</h2>
+
+<p class="text-block"> This plot shows the performance <a href="https://en.wikipedia.org/wiki/Allan_variance"> (ADEV)</a> 
+    of portable optical clocks as a function of system Size, 
+    Weight and Power (SWaP). Performance is shown for 1, 1000 and 10000 second integration times (where available). 
+    Hovering over a point will reveal more information about the clock:
+    Wether it is optical/microwave, commercial/research, its SWaP, its ADEV @ 1second, 
+    the manufacturer/research group, the atomic species, and reference. 
+ </p>
+
+
 <iframe src="main-plot.html" width="1050" height="650">
 </iframe>
 
-<p class="text-block"> This plot shows the performance (ADEV) of portable optical clocks as a function of system Size, 
-    Weight and Power (SWaP). Performance is shown for 1, 1000 and 10000 second integration times (where available). 
-    The general trend is that as SWaP increases, the system gains performance. </p>
+<p class="text-block"> Atomic clocks are currently the best source of precision timekeeping. 
+    Optical atomic clocks are the best atomic clocks. 
+    The very best atomic clocks are confined to the laboratory. 
+    Much work has been done to make atomic clocks portable. 
+    While microwave atomic clocks have been packaged in a portable form for decades, 
+    optical atomic clocks are only just starting to leave the laboratory and get into the field.
+    The motivation for creating this plot is to be used as a resource for those interested or 
+    involved in precision timing and to keep track of the work being done 
+    to package the very best clocks into a deployable form. 
+</p>
 
-<p class="text-block"> Atomic clocks are currently the best source of precision timekeeping. Optical atomic clocks are the best atomic clocks. The very best atomic clocks are confined to the laboratory. Much work has been done to make atomic clocks portable. While microwave atomic clocks have been packaged in a portable form for decades, optical atomic clocks are only just starting to leave the laboratory and get into the field.
-    The motivation for creating this plot is to be used as a resource for those interested or involved in precision timing. This plot shows where each clock sits in terms of its performance (instability) vs its Size, Weight, and Power (SWaP). The lower the instability, the better the performance. The lower the SWaP, the more portable/deployable the device.
-    Data for this plot has been sourced from the references provided, and where necessary extra information has been obtained via personal communication with the researchers and/or manufacturers
+<p class="text-block"> This plot shows where each clock sits in terms of its performance 
+    (instability) vs its Size, Weight, and Power (SWaP). 
+    The lower the instability, the better the performance. The lower the SWaP, the more portable/deployable 
+    the device.
+    Unsurprisingly, the clocks with a larger SWaP also perform the best across all time scales. However for many real 
+    world applications the very best performance is not necessary, this is where compromises can be made in order to 
+    lower the SWaP of the device.
+</p>
+
+<p class="text-block"> Data for this plot has been sourced from the references provided, and where necessary 
+    extra information has been obtained
+    via communication with the researchers and/or manufacturers. 
 </p>
 
 <h2 id="sub-plots">Breaking down Size, Weight and Power vs Performance</h2>
 <iframe src="sub-plots-sliders.html" width="1050" height="620">
 </iframe>
 
-<p class="text-block"> The above plot can be broken and plotted seperately for each of the SWaP components: Size, 
+<p class="text-block"> The main SWaP plot can be broken and plotted separately for each of the SWaP components: Size, 
     weight and Power. 
     For the most part the clocks have the same distribution for each metric as the combined SWaP. 
-    However the benefit of visualising the clocks in this way allows the viewer to more easily 
-    relate to the scale of each metric.
-    Individually the components of: cm<sup>3</sup>, kg and Watts are easier to picture than 
+    However the benefit of visualizing the clocks in this way allows the viewer to more easily 
+    relate to the scale of each metric and therefor the device. Individually the components of: cm<sup>3</sup>, kg and Watts are easier to picture than 
     SWaP units of cm<sup>3</sup>kgW.</p>
 
 
-<p class="text-block"> It is also possible to swap between your own preffered size units of cm<sup>3</sup> and litres, 
+<p class="text-block"> It is also possible to swap between your own preferred size units of cm<sup>3</sup> and litres, 
     and weight units of kg and pounds (lbs), using the sliders. </p>
 
-<p class="text-block"> <strong>NOTE: the breakdwon of SWaP for each clock may not be available, 
+<p class="text-block"> <strong>NOTE: the breakdown of SWaP for each clock may not be available, 
     so some clocks that appear on the main plot may not appear on these. Over time I hope to be able to fill in  any missing data.</strong>
     
 
@@ -70,6 +92,72 @@ How I define SWaP, the inclusion criteria, as well as all of the source data can
 </p>
 
 <h2 id="references"> References</h2>
+<p class="text-block">Reference numbers correspond to REF_NUM in hover window on main plot</p>
 
+<div class="text-block">
+<p>
+    1, CSAC SA.45, <a href="https://www.microsemi.com/product-directory/embedded-clocks-frequency-references/5207-space-csac">https://www.microsemi.com/product-directory/embedded-clocks-frequency-references/5207-space-csac</a>
+</p>
+<p>
+    2, PRS10, <a href="https://www.thinksrs.com/products/prs10.html">https://www.thinksrs.com/products/prs10.html</a>
+</p>
+<p>
+    3, 5071A, <a href="https://www.microchip.com/en-us/products/clock-and-timing/components/atomic-clocks/atomic-system-clocks/cesium-time/5071a">https://www.microchip.com/en-us/products/clock-and-timing/components/atomic-clocks/atomic-system-clocks/cesium-time/5071a</a>
+</p>
+<p>
+    4, MHM Maser, <a href="https://www.microchip.com/en-us/products/clock-and-timing/components/atomic-clocks/atomic-system-clocks/mhm-2020-hydrogen-masers">https://www.microchip.com/en-us/products/clock-and-timing/components/atomic-clocks/atomic-system-clocks/mhm-2020-hydrogen-masers</a>
+</p>
+<p>
+    5, NPL Cs Fountain, <a href="https://www.npl.co.uk/instruments/caesium-fountain">https://www.npl.co.uk/instruments/caesium-fountain</a>
+</p>
+<p>
+    6, MuClock, <a href="https://www.muquans.com/product/muclock/">https://www.muquans.com/product/muclock/</a>
+</p>
+<p>
+    7, cRb, <a href="https://spectradynamics.com/products/crb-clock/">https://spectradynamics.com/products/crb-clock/</a>
+</p>
+<p>
+    8, DSAC, <a href="https://doi.org/10.1038/s41586-021-03571-7">https://doi.org/10.1038/s41586-021-03571-7</a>
+</p>
+<p>
+    10, VA EG-30, <a href="https://vectoratomic.com">https://vectoratomic.com</a>
+</p>
+<p>
+    11, CAS Ca ion , <a href="https://doi.org/10.1103/PhysRevA.102.050802">https://doi.org/10.1103/PhysRevA.102.050802</a>
+</p>
+<p>
+    12, LENS Sr lattice, <a href="https://doi.org/10.1007/s00340-014-5932-9">https://doi.org/10.1007/s00340-014-5932-9</a>
+</p>
+<p>
+    13, PTB Sr Lattice, <a href="https://doi.org/10.1103/PhysRevLett.118.073601">https://doi.org/10.1103/PhysRevLett.118.073601</a>
+</p>
+<p>
+    14, RIKEN Sr Lattice, <a href="https://doi.org/10.1038/s41566-020-0619-8">https://doi.org/10.1038/s41566-020-0619-8</a>
+</p>
+<p>
+    15, Tiqker, <a href="https://www.infleqtion.com/tiqker">https://www.infleqtion.com/tiqker</a>
+</p>
+<p>
+    16, Opticlock, <a href="https://www.opticlock.de/en/info">https://www.opticlock.de/en/info</a>
+</p>
+<p>
+    17, IPAS YB vapour cell, <a href="upcoming publication">upcoming publication</a>
+</p>
+<p>
+    17, IPAS Rb vapour cell, <a href="upcoming publication">upcoming publication</a>
+</p>
+<p>
+    17, AFRL Rb vapour cell, <a href="upcoming publication">upcoming publication</a>
+</p>
+</div>
+
+<h2 id="links"> Links</h2>
+
+
+<p>
+    <a href="https://github.com/a1120960/PAC-SWaP"> PAC-SWaP GitHub page</a>.
+</p>
+    <a href="https://www.adelaide.edu.au/ipas/research-groups/precision-measurement-group/portable-atomic-clocks/precision-timing-plot"> IPAS Portable Atomic Clocks</a>.
+</p>
 
 </div>
