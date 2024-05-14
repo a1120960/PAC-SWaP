@@ -2,6 +2,7 @@ body {
     /* margin-left: 50px; */
     font-family: sans-serif; /* This changes the font */
     background-color: #f9f9f9; /* slightly off-white color */
+    margin-bottom: 100px; /* This adds space at the bottom of the page */
 }
 
 h1 {
@@ -11,6 +12,11 @@ h1 {
 
   h2 {
     padding-top: 40px;
+    padding-bottom: 0px;
+  }
+
+  h3 {
+    padding-top: 20px;
     padding-bottom: 0px;
   }
 
@@ -26,5 +32,10 @@ iframe {
 }
 
 .text-block {
+    width: 1050px;
+}
+
+
+footer {
     width: 1000px;
 }
