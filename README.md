@@ -44,7 +44,7 @@ Portable Atomic Clocks - Size, Weight and Power repository.
 - In all cases I have attempted to present the numbers accurately and in good faith.
 - If i have made any mistakes, or the numbers need to be updated, please let me know.
 
-- All code for plots is kept in the PLOTTING.ipynb notebook.
+- The code for the main swap plot is the file: SWAP-PLOT-MAIN.py
 - I don't claim to be an expert at python or plotly, so any help or advice on how to make these plots 'better' would be much appreciated. 
 
 # FUTURE
