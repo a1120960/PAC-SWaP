@@ -240,7 +240,7 @@ fig.add_layout_image(
     dict(
         source='data:image/png;base64,{}'.format(base64_image),
         xref="paper", yref="paper",
-        x=0.71, y=0.92,
+        x=0.71, y=0.925,
         sizex=0.15, sizey=0.15,
         xanchor="center", yanchor="middle",
         opacity=1.,
@@ -269,4 +269,4 @@ fig.update_layout(
 
 # Save the plot as an HTML file
 # change output format to PNG, JPEG, SVG, PDF, or EPS as needed
-fig.write_html('main-swap-plot.html')
+fig.write_html('SWAP-PLOT-MAIN.html')
