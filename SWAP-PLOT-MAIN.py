@@ -213,7 +213,7 @@ fig.add_annotation(
 fig.add_annotation(
     xref="paper", yref="paper",
     x=1,
-    y=0.73,
+    y=0.74,
     text="B. White 2024",
     showarrow=False,
     align='right',
@@ -240,10 +240,10 @@ fig.add_layout_image(
     dict(
         source='data:image/png;base64,{}'.format(base64_image),
         xref="paper", yref="paper",
-        x=0.71, y=0.925,
+        x=0.69, y=0.925,
         sizex=0.15, sizey=0.15,
         xanchor="center", yanchor="middle",
-        opacity=1.,
+        opacity=0.9,
         layer="above"
     )
 )
