@@ -2,7 +2,7 @@
 1,CSAC,Rubidium,Vapour cell,CSAC SA.45,24,COMMERCIAL,MICROWAVE,,1,15.75,0.035,0.12,0.1,3.00E-10,1.00E-11,,,1,https://www.microsemi.com/product-directory/embedded-clocks-frequency-references/5207-space-csac
 1,SRS,Rubidium,Vapour cell,PRS10,34,COMMERCIAL,MICROWAVE,,1,375,0.6,14.4,3240,2.00E-11,,,,2,https://www.thinksrs.com/products/prs10.html
 1,Cs Beam 5017A,Caesium,Beam,5071A,35,COMMERCIAL,MICROWAVE,,1,30000,30,50,45000000,5.00E-12,2.70E-13,8.50E-14,,3,https://www.microchip.com/en-us/products/clock-and-timing/components/atomic-clocks/atomic-system-clocks/cesium-time/5071a
-1,Active H Maser,Hydrogen,Maser,MHM 2020 Maser,36,COMMERCIAL,MICROWAVE,,,,,,8000000000,1.50E-13,2.00E-15,1.50E-15,,4,https://www.microchip.com/en-us/products/clock-and-timing/components/atomic-clocks/atomic-system-clocks/mhm-2020-hydrogen-masers
+1,Active H Maser,Hydrogen,Maser,MHM 2020 Maser,36,COMMERCIAL,MICROWAVE,,,374072,246,75,6901628400,1.50E-13,2.00E-15,1.50E-15,,4,https://www.microchip.com/en-us/products/clock-and-timing/components/atomic-clocks/atomic-system-clocks/mhm-2020-hydrogen-masers
 1,NPL Fountain,Caesium,Fountain,NPL Cs Fountain,,COMMERCIAL,MICROWAVE,,1,3291750,520,1500,2.50E+12,1.00E-13,,,,5,https://www.npl.co.uk/instruments/caesium-fountain
 1,Muquans,Rubidium,Cold atoms,MuClock,37,COMMERCIAL,MICROWAVE,,1,682000,135,200,1.84E+10,3.00E-13,9.50E-15,3.00E-15,,6,https://www.muquans.com/product/muclock/
 1,SpectraDynamics,Rubidium,,cRb,38,COMMERCIAL,MICROWAVE,,1,40442,31,80,1.00E+08,7.00E-13,2.00E-14,7.00E-15,,7,https://spectradynamics.com/products/crb-clock/
@@ -20,7 +20,7 @@
 1,NIST (TARGET instability),,,Yb lattice,11,RESEARCH,,,,,,,,6.70E-17,,,,,
 1,Jila,,,Sr lattice,12,RESEARCH,,,,,,,,,,,,,
 1,NPL ,,, ,13,RESEARCH,,,,,,,,,,,,,
-0,QuantX,,Resonator,CryoClock,,COMMERCIAL,MICROWAVE,,1,3.60E+06,110,7000,2.70E+12,4.00E-16,7.00E-15,1.00E-14,,,https://quantxlabs.com/wp-content/uploads/2023/11/Cryoclock-Spec-Sheet.pdf
+0,QuantX,NaN,Resonator,CryoClock,,COMMERCIAL,MICROWAVE,,1,3.60E+06,110,7000,2.70E+12,4.00E-16,7.00E-15,1.00E-14,,,https://quantxlabs.com/wp-content/uploads/2023/11/Cryoclock-Spec-Sheet.pdf
 1,IPAS,Ytterbium,Vapour cell,IPAS YB vapour cell,,RESEARCH,OPTICAL,,1,6.70E+04,40,210,562800000,1.00E-14,6.00E-15,5.00E-15,,17,upcoming publication
 1,IPAS,Rubidium,Vapour cell,IPAS Rb vapour cell,,RESEARCH,OPTICAL,,1,8.10E+04,45,340,1239300000,1.30E-13,4.90E-15,3.00E-15,,17,upcoming publication
 0,Vescent,Acetylene,,,,RESEARCH,OPTICAL,,,,,,,2.60E-13,,,,,
