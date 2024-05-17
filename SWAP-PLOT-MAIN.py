@@ -248,6 +248,7 @@ fig.add_layout_image(
     )
 )
 
+
 # add frame around plot
 fig.update_layout(
     xaxis=dict(
