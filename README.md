@@ -45,7 +45,7 @@ Portable Atomic Clocks - Size, Weight and Power repository.
 - If i have made any mistakes, or the numbers need to be updated, please let me know.
 
 - The code for the main swap plot is the file: SWAP-PLOT-MAIN.py
-- I don't claim to be an expert at python or plotly, so any help or advice on how to make these plots 'better' would be much appreciated. 
+- Any help or advice on how to make these plots and/or data more accessible will be much appreciated. 
 
 # FUTURE
 - I would like to extend **SWaP** to **SWaP-PC**, which would include other significant barriers to deployability:
