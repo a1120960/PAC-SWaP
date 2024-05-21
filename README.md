@@ -33,7 +33,7 @@ Portable Atomic Clocks - Size, Weight and Power repository.
     - **Power**: Units of Watts. I have used the power of the entire device. As per Size and Weight, the power demand of everything required for actual operation.
 
 ## Performance 
-- Clock variability (ADEV) has been used. Plots are initially drawn using a 1 second integration time, and subsequent plots can be created using longer integration times if and where available.
+- Clock variability (ADEV) has been used. Plots are initially drawn using a 1 second integration time. Longer integration times are also plotted if and where that information is available.
 
 
 
