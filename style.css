@@ -1,7 +1,7 @@
 body {
     /* margin-left: 50px; */
-    font-family: sans-serif; /* This changes the font */
-    background-color: #f9f9f9; /* slightly off-white color */
+    font-family: sans-serif; /* This changes the font family */
+    background-color: #f9f9f9; /* slightly off-white color for bg*/
     margin-bottom: 100px; /* This adds space at the bottom of the page */
 }
 
