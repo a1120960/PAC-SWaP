@@ -255,13 +255,13 @@ fig.update_layout(
         showline=True,
         linewidth=0.4,
         mirror=True,
-        linecolor='black'
+        linecolor='lightgrey'
     ),
     yaxis=dict(
         showline=True,
         linewidth=0.4,
         mirror=True,
-        linecolor='black'
+        linecolor='lightgrey'
     ),
     margin=dict(t=70,b=50)
 )
