@@ -209,16 +209,17 @@ fig.add_annotation(
     font=dict(size=12, color='rgba(0, 0, 0, 0.8)')
 )
 
-# Add annotation for the author
+
 fig.add_annotation(
     xref="paper", yref="paper",
-    x=1,
-    y=0.74,
+    x=1.0,
+    y=-0.0,
     text="B. White 2024",
     showarrow=False,
     align='right',
-    font=dict(size=10, color='rgba(0, 0, 0, 0.8)')
+    font=dict(size=12, color='rgba(0, 0, 0, 0.8)')
 )
+
 
 # Add annotation for GPS
 fig.add_annotation(
@@ -240,9 +241,9 @@ fig.add_layout_image(
     dict(
         source='data:image/png;base64,{}'.format(base64_image),
         xref="paper", yref="paper",
-        x=0.69, y=0.925,
-        sizex=0.15, sizey=0.15,
-        xanchor="center", yanchor="middle",
+        x=0.0, y=1,
+        sizex=0.1, sizey=0.1,
+        xanchor="left", yanchor="top",
         opacity=0.9,
         layer="above"
     )
