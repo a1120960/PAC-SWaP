@@ -231,8 +231,8 @@ fig.add_annotation(
     font=dict(size=12, color='rgba(0, 0, 0, 0.8)')
 )
 
-# QR code image that links to source data
-# Open the QR code image and convert it to base64
+# QR code image that links to source data (source:qr code monkey)
+# adding png doesnt work for html output, need to convert to base64 for some reason
 with open("IPAS-QR.png", "rb") as image_file:
     base64_image = base64.b64encode(image_file.read()).decode('utf-8')
 
