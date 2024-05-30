@@ -36,12 +36,17 @@ iframe {
 }
 
 .text-block {
-    text-align: justify; /* This justifies the text */
-    width: 1000px;
+  text-align: justify; /* This justifies the text */
+  width: 1000px;
+}
+
+
+.references {
+  width: 1000px;
 }
 
 
 footer {
-    width: 1000px;
-    
+  width: 1000px;
 }
+
