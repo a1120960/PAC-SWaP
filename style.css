@@ -35,6 +35,7 @@ iframe {
 }
 
 .text-block {
+    text-align: justify;
     width: 1000px;
 }
 
