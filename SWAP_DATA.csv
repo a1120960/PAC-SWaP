@@ -23,5 +23,5 @@
 0,QuantX,NaN,Resonator,CryoClock,,COMMERCIAL,MICROWAVE,,1,3.60E+06,110,7000,2.70E+12,4.00E-16,7.00E-15,1.00E-14,,,https://quantxlabs.com/wp-content/uploads/2023/11/Cryoclock-Spec-Sheet.pdf
 1,IPAS,Ytterbium,Vapour cell,IPAS YB vapour cell,,RESEARCH,OPTICAL,,1,6.70E+04,40,210,562800000,1.00E-14,6.00E-15,5.00E-15,,17,upcoming publication
 1,IPAS,Rubidium,Vapour cell,IPAS Rb vapour cell,,RESEARCH,OPTICAL,,1,8.10E+04,45,340,1239300000,1.30E-13,4.90E-15,3.00E-15,,17,upcoming publication
-0,Vescent,Acetylene,,,,RESEARCH,OPTICAL,,,,,,,2.60E-13,,,,,
+1,Vescent,Acetylene,Vapour cell,DFM/Vescent,,RESEARCH,OPTICAL,,1,4.23E+04,19.5,150,123727500,2.60E-13,9.00E-15,,,18,https://vescent.com/media/wysiwyg/Products/FFC-Stabilaser_White_Paper.pdf
 1,AFRL,Rubidium,Vapour cell,AFRL Rb vapour cell,,RESEARCH,OPTICAL,,1,5829120,310,1300,2.34E+12,3.00E-13,4.00E-14,4.00E-14,,17,upcoming publication
