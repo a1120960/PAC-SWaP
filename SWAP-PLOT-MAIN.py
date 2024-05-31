@@ -29,6 +29,7 @@ import plotly.express as px
 import numpy as np
 import pandas as pd
 import base64
+import copy
 
 # Import SWAP data into a pandas DataFrame
 csv_file = 'SWAP_DATA.csv'
@@ -272,3 +273,77 @@ fig.update_layout(
 # Save the plot as an HTML file
 # change output format to PNG, JPEG, SVG, PDF, or EPS as needed
 fig.write_html('SWAP-PLOT-MAIN.html')
+
+
+
+
+
+# Create a deep copy of the original figure for focused plot
+fig2 = copy.deepcopy(fig)
+
+# Remove the first annotation
+fig2.layout.annotations = list(fig2.layout.annotations)[1:]
+
+# Adjust the x and y axis limits
+fig2.update_layout(
+    xaxis=dict(range=[6.5, 11],fixedrange=True),  
+    yaxis=dict(range=[-15.5, -10.5], fixedrange= True),
+    margin=dict(t=30)
+)
+
+# Add vertical line at 10^7 for PS5
+fig2.add_trace(
+    go.Scatter(
+        x=[10**7, 10**7],  
+        y=[10**-15.5, 10**-10.5], 
+        mode='lines',
+        line=dict(color='grey', width=10, dash='dot'),
+        opacity=0.3,  
+        showlegend=False
+    )
+)
+
+# Add vertical line at 10^10 for FRIDGE
+fig2.add_trace(
+    go.Scatter(
+        x=[10**10, 10**10],  
+        y=[10**-15.5, 10**-10.5],  
+        mode='lines',
+        line=dict(color='grey', width=10, dash='dot'),
+        opacity=0.3,  
+        showlegend=False
+    )
+)
+
+# Add annotations for PS5 and FRIDGE
+fig2.add_annotation(
+    x=7.08,
+    y=-15.5,
+    text="PLAYSTATION 5",
+    showarrow=False,
+    textangle=-90, 
+    font=dict(
+        size=16,
+        color="grey"
+    ),
+    xref="x",
+    yref="y",
+    yanchor="bottom"
+)
+fig2.add_annotation(
+    x=10.08,
+    y=-15.5,
+    text="FAMILY FRIDGE",
+    showarrow=False,
+    textangle=-90,  # This will make the text vertical
+    font=dict(
+        size=16,
+        color="grey"
+    ),
+    xref="x",
+    yref="y",
+    yanchor="bottom"
+)
+
+
+fig2.write_html('SWAP-PLOT-FOCUS.html')
