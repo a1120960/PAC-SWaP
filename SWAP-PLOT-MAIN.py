@@ -318,7 +318,7 @@ fig2.add_trace(
 # Add annotations for PS5 and FRIDGE
 fig2.add_annotation(
     x=7.08,
-    y=-15.5,
+    y=-15.4,
     text="PLAYSTATION 5",
     showarrow=False,
     textangle=-90, 
@@ -332,7 +332,7 @@ fig2.add_annotation(
 )
 fig2.add_annotation(
     x=10.08,
-    y=-15.5,
+    y=-15.4,
     text="FAMILY FRIDGE",
     showarrow=False,
     textangle=-90,  # This will make the text vertical
