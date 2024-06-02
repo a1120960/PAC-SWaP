@@ -55,28 +55,6 @@ For citation purposes, please reference our arXiv paper (UPCOMING), DOI:
 
 <h2 id="main-plot">SWaP vs Performance plot</h2>
 
-<p class="text-block"> This plot shows the performance <a href="https://en.wikipedia.org/wiki/Allan_variance"> (ADEV)</a> 
-    of portable atomic clocks as a function of system Size, 
-    Weight and Power (SWaP). Performance is shown for 1, 1000 and 10000 second integration times (where available). 
-    Hovering over a point will reveal more information about the clock:
-    Wether it is optical/microwave, commercial/research, its SWaP, its ADEV @ 1second, 
-    the manufacturer/research group, the atomic species, and reference. 
- </p>
-
-
-<p class="text-block">
-<em>
-NOTE: For the best viewing experience its recommended viewing this website using a desktop or laptop computer rather than a mobile device. In a mobile browser interactive plot elements don't work very well, as well the plots may be difficult to read.
-</em>
-</p>
-
-<!-- <iframe src="main-plot.html" width="1050" height="650">
-</iframe> -->
-
-<iframe src="SWAP-PLOT-MAIN.html" width="1000" height="650">
-</iframe>
-<p class="caption"><strong>Figure 1:</strong> The full SWaP plot</p>
-
 <p class="text-block"> Atomic clocks are currently the best source of precision timekeeping. 
     Optical atomic clocks are the best atomic clocks. 
     The very best atomic clocks are confined to the laboratory. 
@@ -88,20 +66,41 @@ NOTE: For the best viewing experience its recommended viewing this website using
     to package the very best clocks into a deployable form. 
 </p>
 
-<p class="text-block"> Figure 1 is the full SWaP plot. It shows where each clock sits in terms of its performance 
-    (instability) vs its Size, Weight, and Power (SWaP). 
-    The lower the instability, the better the performance. The lower the SWaP, the more portable/deployable 
-    the device.
-    Unsurprisingly, the clocks with a larger SWaP also perform the best across all time scales. However for many real 
-    world applications the very best performance is not necessary, this is where compromises can be made in order to 
-    lower the SWaP of the device.
+
+
+
+<p class="text-block">
+<em>
+NOTE: For the best viewing experience its recommended viewing this website using a desktop or laptop computer rather than a mobile device. In a mobile browser interactive plot elements don't work very well, as well the plots may be difficult to read.
+</em>
 </p>
 
-<iframe src="SWAP-PLOT-FOCUS.html" width="1000" height="650">
+<!-- <iframe src="main-plot.html" width="1050" height="650">
+</iframe> -->
+
+<iframe id='Fig1' src="SWAP-PLOT-MAIN.html" width="1000" height="650">
+</iframe>
+<p class="caption"><strong>Figure 1:</strong> The full SWaP plot</p>
+
+<p class="text-block"> <a href="#Fig1">Figure 1</a> is the full SWaP plot. This plot shows the performance <a href="https://en.wikipedia.org/wiki/Allan_variance"> (ADEV)</a> 
+    of portable atomic clocks as a function of system Size, 
+    Weight and Power (SWaP). Performance is shown for 1, 1000 and 10000 second integration times (where available). 
+    Hovering over a point will reveal more information about the clock:
+    Wether it is optical/microwave, commercial/research, its SWaP, its ADEV @ 1second, 
+    the manufacturer/research group, the atomic species, and reference. 
+ </p>
+
+<p class="text-block"> 
+    The lower a clocks instability for a given integration time, the better the performance. The lower the SWaP, the more portable/deployable the device.
+    Unsurprisingly, the clocks with a larger SWaP also perform the best across all time scales. However for many real 
+    world applications the very best performance is not necessary, this is where compromises can be made in order to lower the SWaP of the device.
+</p>
+
+<iframe id = 'Fig2' src="SWAP-PLOT-FOCUS.html" width="1000" height="650">
 </iframe>
 <p class="caption"><strong>Figure 2:</strong> Focussed SWaP plot. </p>
 
-<p class="text-block"> In Figure 2 we can focus in on the tightly clustered region from the full SWaP plot. This seems to be where most of the action is occurring. There are now many devices with a similar performance that have a SWaP ranging from that of a Playstation to that of the family fridge. Id expect his region of the plot to become much more congested in the future, representing the realistic tradeoff between performance and SWaP this new generation of optical timing devices will target.
+<p class="text-block"> In <a href="#Fig2">Figure 2</a> we can focus in on the tightly clustered region from the full SWaP plot. This seems to be where most of the action is occurring. There are now many devices with a similar performance that have a SWaP ranging from that of a Playstation to that of the family fridge. Id expect his region of the plot to become much more congested in the future, representing the realistic tradeoff between performance and SWaP this new generation of optical timing devices will target.
 </p>
 
 <p class="text-block"> Data for this plot has been sourced from the references provided, and where necessary 
@@ -114,17 +113,17 @@ NOTE: For the best viewing experience its recommended viewing this website using
 <p class="text-block"> To make the true scale of SWaP more accessible the above plots can be broken down and plotted separately for each of the SWaP components: Size, Weight and Power. 
 </p>
 
-<iframe src="sub-plots-sliders.html" width="1050" height="620">
+<iframe id = 'Fig3' src="sub-plots-sliders.html" width="1050" height="620">
 </iframe>
 <p class="caption"><strong>Figure 3:</strong> separately plotting Size, Weight and Power </p>
 
 <p class="text-block"> 
-    In Figure 3 have only plotted the 1 second ADEV for clarity. While the traces are slightly different for each metric, for the most part the clocks show the same distribution for each individual dimension of SWaP as they do for the overall combined SWaP. 
+    For <a href="#Fig3">Figure 3</a> I have only plotted the 1 second ADEV vs each SWaP metric for clarity. While the traces are slightly different for each metric, for the most part the clocks show the same distribution for each individual dimension of SWaP as they do for the overall combined SWaP. 
     The benefit of visualizing the clocks in this way allows the viewer to more easily 
     picture the scale of each metric and therefore the device. Individually the components of: cm<sup>3</sup>, kg and Watts are easier to relate to than the extremely large numbers associated with the SWaP units of cm<sup>3</sup>kgW.</p>
 
 
-<p class="text-block"> One can swap between your preferred size units of cm<sup>3</sup> and litres, 
+<p class="text-block"> You can switch between your preferred size units of cm<sup>3</sup> and litres, 
     and weight units of kg and pounds (lbs), using the sliders. </p>
 
 <p class="text-block"> <strong>NOTE: the breakdown of SWaP for each clock may not be available, 
