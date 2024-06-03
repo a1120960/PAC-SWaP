@@ -12,7 +12,7 @@
 1,CAS,Calcium,Ion,CAS Ca ion ,31,RESEARCH,OPTICAL,,,,,,1.00E+14,1.00E-14,2.00E-16,5.00E-17,,11,https://doi.org/10.1103/PhysRevA.102.050802
 1,LENS ,Strontium,Lattice,LENS Sr lattice,14,RESEARCH,OPTICAL,,1,2.00E+06,400,2000,1.60E+12,4.00E-15,,,,12,https://doi.org/10.1007/s00340-014-5932-9
 1,PTB,Strontium,Lattice,PTB Sr Lattice,22,RESEARCH,OPTICAL,,1,1.50E+07,2000,2000,6.00E+13,1.30E-15,3.00E-17,1.30E-17,,13,https://doi.org/10.1103/PhysRevLett.118.073601
-0,SKOLTECH,Ytterbium,Ion,SKOLTECH Yb ion,,RESEARCH,OPTICAL,,1,9.21E+05,298,2700,7.40E+11,8.90E-15,9.40E-16,4.90E-16,,,
+1,SKOLTECH,Ytterbium,Ion,SKOLTECH Yb ion,,RESEARCH,OPTICAL,,1,9.21E+05,298,2700,7.40E+11,8.90E-15,9.40E-16,4.90E-16,,19,https://doi.org/10.3390/sym14102213
 1,RIKEN,Strontium,Lattice,RIKEN Sr Lattice,41,RESEARCH,OPTICAL,,0,,,,2.00E+11,1.00E-15,,,,14,https://doi.org/10.1038/s41566-020-0619-8
 1,Infleqtion,Rubidium,Vapour cell,Tiqker,,COMMERCIAL,OPTICAL,,1,30000,30,70,6.30E+07,1.00E-13,1.00E-14,5.00E-15,,15,https://www.infleqtion.com/tiqker
 1,Opticlock,Ytterbium,Trapped Ion,Opticlock,21,COMMERCIAL,OPTICAL,,0,,,,1.34E+12,2.00E-15,2.00E-16,6.00E-17,,16,https://www.opticlock.de/en/info
