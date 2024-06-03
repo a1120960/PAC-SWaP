@@ -286,7 +286,7 @@ fig2.layout.annotations = list(fig2.layout.annotations)[1:]
 
 # Adjust the x and y axis limits
 fig2.update_layout(
-    xaxis=dict(range=[6.5, 10.5],fixedrange=True),  
+    xaxis=dict(range=[6.5, 10.6],fixedrange=True),  
     yaxis=dict(range=[-15.5, -10.5], fixedrange= True),
     margin=dict(t=30)
 )
