@@ -6,6 +6,8 @@ Description:
 This script reads SWAP data from a CSV file, filters the data, and generates an interactive 
 plot using Plotly. The plot includes markers for different TAU values, a shaded region for 
 lab clocks, and a QR code for more information.
+It also produces a focussed plot with a zoomed-in view of the SWAP values around 10^7 and 10^10.
+it exports both plots as auto-scaled HTML files.
 
 Usage:
 - Ensure the SWAP_DATA.csv file is in the same directory as this script.
