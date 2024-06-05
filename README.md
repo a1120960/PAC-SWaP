@@ -1,6 +1,18 @@
 # PAC-SWaP
 Portable Atomic Clocks - Size, Weight and Power repository.
 
+# Table of Contents
+1. [PAC-SWaP](#pac-swap)
+2. [LICENSE AND ATTRIBUTION](#license-and-attribution)
+3. [PURPOSE](#purpose)
+4. [INCLUSION CRITERIA](#inclusion-criteria)
+5. [FOCUS](#focus)
+6. [DATA AND PLOTTING](#data-and-plotting)
+7. [FUTURE](#future)
+8. [DISCLAIMER](#disclaimer)
+
+
+
 # LICENSE AND ATTRIBUTION
 All information and materials provided in this repository are licensed under the [CC-BY-SA-4.0 license](https://github.com/a1120960/PAC-SWaP?tab=readme-ov-file#). You are free to share and adapt the content as long as you provide appropriate credit, indicate any changes made, and distribute your contributions under the same license. 
 
@@ -61,7 +73,7 @@ For citation purposes, please reference our arXiv paper (UPCOMING), DOI:
 
 
 
-# DISCLAIMER!!!
+# DISCLAIMER
 - I don't claim that this is a comprehensive database of every single device, however I plan to keep it updated as new devices/results are published/announced. As well as adding anything current or from the past that I may have missed.
 - **Its not a competition!**. The intention isn't to present this as a ranking or leaderboard of performance. Just a representation of where the technology currently stands.
 
