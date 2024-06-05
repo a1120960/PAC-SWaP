@@ -14,7 +14,7 @@ For citation purposes, please reference our arXiv paper (UPCOMING), DOI:
 - The all data and plots shown on the [IPAS Portable Atomic Clocks](https://www.adelaide.edu.au/ipas/research-groups/precision-measurement-group/portable-atomic-clocks/precision-timing-plot) page and the [PAC-SWAP page](https://a1120960.github.io/PAC-SWaP/) will be available in this repository. 
 
 
-# INCLUSION
+# INCLUSION CRITERIA 
 - Clocks are included that are **portable**. This might be an obvious quality (for example the CSAC), or something that is stated in a publication or promotional material. In a general sense it is a clock that can be moved and operated outside of the laboratory.
 - Must have some performance measured and available - publication, pre-publication, spec sheet etc
 - At this point I have only included the most common current microwave atomic clocks. There are more, however the intention is to compare the new generation of portable optical atomic clocks to those clocks that currently represent the gold standard. 
@@ -61,7 +61,7 @@ For citation purposes, please reference our arXiv paper (UPCOMING), DOI:
 
 
 
-# DISCLAIMER!
+# DISCLAIMER!!!
 - I don't claim that this is a comprehensive database of every single device, however I plan to keep it updated as new devices/results are published/announced. As well as adding anything current or from the past that I may have missed.
 - **Its not a competition!**. The intention isn't to present this as a ranking or leaderboard of performance. Just a representation of where the technology currently stands.
 
