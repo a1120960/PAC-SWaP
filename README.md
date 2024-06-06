@@ -2,14 +2,13 @@
 Portable Atomic Clocks - Size, Weight and Power repository.
 
 # Table of Contents
-1. [PAC-SWaP](#pac-swap)
-2. [LICENSE AND ATTRIBUTION](#license-and-attribution)
-3. [PURPOSE](#purpose)
-4. [INCLUSION CRITERIA](#inclusion-criteria)
-5. [FOCUS](#focus)
-6. [DATA AND PLOTTING](#data-and-plotting)
-7. [FUTURE](#future)
-8. [DISCLAIMER](#disclaimer)
+1. [LICENSE AND ATTRIBUTION](#license-and-attribution)
+2. [PURPOSE](#purpose)
+3. [INCLUSION CRITERIA](#inclusion-criteria)
+4. [FOCUS](#focus)
+5. [DATA AND PLOTTING](#data-and-plotting)
+6. [FUTURE](#future)
+7. [DISCLAIMER](#disclaimer)
 
 
 
