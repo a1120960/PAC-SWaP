@@ -52,6 +52,7 @@ footer {
 
 .caption {
   text-align: justify;
+  width: 950px;
   color: #000000;
   font-size: 0.8em;
   margin-top: 0px; /* Adjust as needed */
