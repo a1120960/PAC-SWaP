@@ -173,7 +173,7 @@ fig.update_layout(legend=dict(itemclick=False))
 # Configure layout, axis, and other features
 fig.update_layout(
     xaxis_title='Size, Weight and Power (cm³kgW)',
-    yaxis_title='Instability (s)',
+    yaxis_title='Fractional Frequency Stability (ADEV)',
     yaxis=dict(range=[-17.5, -8]),
     xaxis=dict(range=[-2.5, 15.5]),
     xaxis_type='log',
