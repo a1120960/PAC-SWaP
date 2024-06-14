@@ -284,7 +284,7 @@ fig2.update_layout(
     margin=dict(t=30)
 )
 
-# Add vertical line at 10^7 for PS5
+# Add vertical line at 10^7 for PS5 SWaP
 fig2.add_trace(
     go.Scatter(
         x=[10**7, 10**7],  
@@ -296,7 +296,7 @@ fig2.add_trace(
     )
 )
 
-# Add vertical line at 10^10 for FRIDGE
+# Add vertical line at 10^10 for FRIDGE SWaP
 fig2.add_trace(
     go.Scatter(
         x=[10**10, 10**10],  
@@ -338,4 +338,6 @@ fig2.add_annotation(
     yanchor="bottom"
 )
 
+
+# write html file for focused plot
 fig2.write_html('SWAP-PLOT-FOCUS.html')
