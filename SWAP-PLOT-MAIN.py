@@ -213,6 +213,7 @@ fig.add_annotation(
     font=dict(size=12, color='rgba(0, 0, 0, 0.8)')
 )
 
+# add annotation for author and date
 fig.add_annotation(
     xref="paper", yref="paper",
     x=1.0,
@@ -233,7 +234,7 @@ fig.add_annotation(
     font=dict(size=12, color='rgba(0, 0, 0, 0.8)')
 )
 
-# QR code image that links to source data (source:qr code monkey)
+# QR code image that links to source data on IPAS page
 with open("IPAS-QR.png", "rb") as image_file:
     base64_image = base64.b64encode(image_file.read()).decode('utf-8')
 
