@@ -1,4 +1,5 @@
 """
+QR CODE NOW WORKS ON DOWNLOAD
 Title: SWAP Data Plotting Script
 Author: Ben White
 Date: 2024
@@ -212,7 +213,6 @@ fig.add_annotation(
     font=dict(size=12, color='rgba(0, 0, 0, 0.8)')
 )
 
-
 fig.add_annotation(
     xref="paper", yref="paper",
     x=1.0,
@@ -222,7 +222,6 @@ fig.add_annotation(
     align='right',
     font=dict(size=12, color='rgba(0, 0, 0, 0.8)')
 )
-
 
 # Add annotation for GPS
 fig.add_annotation(
@@ -235,7 +234,6 @@ fig.add_annotation(
 )
 
 # QR code image that links to source data (source:qr code monkey)
-# adding png doesnt work for html output, need to convert to base64 for some reason
 with open("IPAS-QR.png", "rb") as image_file:
     base64_image = base64.b64encode(image_file.read()).decode('utf-8')
 
@@ -252,8 +250,7 @@ fig.add_layout_image(
     )
 )
 
-
-# add frame around plot
+# Add frame around plot
 fig.update_layout(
     xaxis=dict(
         showline=True,
@@ -267,18 +264,11 @@ fig.update_layout(
         mirror=True,
         linecolor='lightgrey'
     ),
-    margin=dict(t=70,b=50)
+    margin=dict(t=70, b=50)
 )
 
-
-
 # Save the plot as an HTML file
-# change output format to PNG, JPEG, SVG, PDF, or EPS as needed
 fig.write_html('SWAP-PLOT-MAIN.html')
-
-
-
-
 
 # Create a deep copy of the original figure for focused plot
 fig2 = copy.deepcopy(fig)
@@ -288,8 +278,8 @@ fig2.layout.annotations = list(fig2.layout.annotations)[1:]
 
 # Adjust the x and y axis limits
 fig2.update_layout(
-    xaxis=dict(range=[6.5, 10.6],fixedrange=True),  
-    yaxis=dict(range=[-15.5, -10.5], fixedrange= True),
+    xaxis=dict(range=[6.5, 10.6], fixedrange=True),  
+    yaxis=dict(range=[-15.5, -10.5], fixedrange=True),
     margin=dict(t=30)
 )
 
@@ -337,7 +327,7 @@ fig2.add_annotation(
     y=-15.4,
     text="FAMILY FRIDGE",
     showarrow=False,
-    textangle=-90,  # This will make the text vertical
+    textangle=-90, 
     font=dict(
         size=16,
         color="grey"
@@ -346,6 +336,5 @@ fig2.add_annotation(
     yref="y",
     yanchor="bottom"
 )
-
 
 fig2.write_html('SWAP-PLOT-FOCUS.html')
