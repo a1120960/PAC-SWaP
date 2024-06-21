@@ -19,14 +19,14 @@ For citation purposes, please reference our arXiv paper (UPCOMING), DOI:
 
 
 # PURPOSE
-- This repository is intended to be a resource for those interested in the growing world of portable atomic clocks. Specifically looking at the barriers to deployment: the Size, Weight and Power (SWaP) of the clock, and how these affects clock performance. 
-- At this point I wont claim it is an authority on PAC-SWaP, but will hopefully serve as the starting point for literature reviews and the like. 
+- This repository is intended to be a resource for those interested and or involved in the growing world of portable atomic clocks. Specifically looking at the barriers to deployment: the Size, Weight and Power (SWaP) of the clock, and how these affects clock performance. 
+- I wont claim it is an authority on PAC-SWaP, but will hopefully serve as the starting point for literature reviews and the like. 
 - Over time I'd like this repository to track the progress of clock technology as the new generation of optical atomic clocks leave the laboratory and become commercially available. 
 - The all data and plots shown on the [IPAS Portable Atomic Clocks](https://www.adelaide.edu.au/ipas/research-groups/precision-measurement-group/portable-atomic-clocks/precision-timing-plot) page and the [PAC-SWAP page](https://a1120960.github.io/PAC-SWaP/) will be available in this repository. 
 
 
 # INCLUSION CRITERIA 
-- Clocks are included that are **portable**. This might be an obvious quality (for example the CSAC), or something that is stated in a publication or promotional material. In a general sense it is a clock that can be moved and operated outside of the laboratory.
+- Clocks are included that are **portable**. This might be an obvious quality (for example the CSAC), or something that is stated as such in a publication or promotional material. In a general sense it is a clock that can be moved and operated outside of the laboratory.
 - Must have some performance measured and available - publication, pre-publication, spec sheet etc
 - At this point I have only included the most common current microwave atomic clocks. There are more, however the intention is to compare the new generation of portable optical atomic clocks to those clocks that currently represent the gold standard. 
 - The INCLUDE field in the SWAP_DATA.csv determines wether a clock will be in the plot. examples of why this might be set to 0:
