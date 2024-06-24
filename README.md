@@ -70,8 +70,6 @@ For citation purposes, please reference our arXiv paper (UPCOMING), DOI:
 
 
 
-
-
 # DISCLAIMER
 - I don't claim that this is a comprehensive database of every single device, however I plan to keep it updated as new devices/results are published/announced. As well as adding anything current or from the past that I may have missed.
 - **Its not a competition!**. The intention isn't to present this as a ranking or leaderboard of performance. Just a representation of where the technology currently stands.
