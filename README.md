@@ -68,7 +68,7 @@ For citation purposes, please reference our arXiv paper (UPCOMING), DOI:
     - **Personnel**: How many people are required to run the system? For many of the modern portable systems this would be a minimum of a single person to turn the key or press a button, and begin operation. On the other hand some research clocks may need an entire team of people to set up and run the clock. 
     - **Cost**: How much does the system cost? For research clocks this may be hard, if not impossible to determine, or might not want to be revealed.
 
-- As clock technology progresses, I would like the focus to be more on deployable clocks. 
+- As optical clock technology progresses, I would like the focus to be more on deployable clocks. 
 
 
 
