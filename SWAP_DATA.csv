@@ -6,7 +6,7 @@
 1,NPL Fountain,Caesium,Fountain,NPL Cs Fountain,,COMMERCIAL,MICROWAVE,,1,3291750,520,1500,2.50E+12,1.00E-13,,,,5,https://www.npl.co.uk/instruments/caesium-fountain
 1,Muquans,Rubidium,Cold atoms,MuClock,37,COMMERCIAL,MICROWAVE,,1,682000,135,200,1.84E+10,3.00E-13,9.50E-15,3.00E-15,,6,https://www.muquans.com/product/muclock/
 1,SpectraDynamics,Rubidium,,cRb,38,COMMERCIAL,MICROWAVE,,1,40442,31,80,1.00E+08,7.00E-13,2.00E-14,7.00E-15,,7,https://spectradynamics.com/products/crb-clock/
-1,DSAC,Mercury,Ion,DSAC,39,RESEARCH,MICROWAVE,,1,17342,17.5,44,13353340,1.50E-13,,,,8,https://doi.org/10.1109/TUFFC.2016.2543738
+1,DSAC,Mercury,Ion,DSAC,39,RESEARCH,MICROWAVE,,1,17342,17.5,44,13353340,1.50E-13,5.00E-14,2.00E-14,,8,https://doi.org/10.1109/TUFFC.2016.2543738
 0,PHARAO (physics package ONLY),,,PHARAO,40,RESEARCH,MICROWAVE,,,,,,79200000,,,,,9,
 1,VectorAtomic,Iodine,,VA EG-30,26,COMMERCIAL,OPTICAL,,1,2.90E+04,20,80,46400000,2.50E-14,1.20E-15,3.00E-15,,10,https://vectoratomic.com
 1,CAS,Calcium,Ion,CAS Ca ion ,31,RESEARCH,OPTICAL,,,,,,1.00E+14,1.00E-14,2.00E-16,5.00E-17,,11,https://doi.org/10.1103/PhysRevA.102.050802
