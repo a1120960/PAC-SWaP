@@ -15,7 +15,7 @@ Portable Atomic Clocks - Size, Weight and Power repository.
 # LICENSE AND ATTRIBUTION
 All information and materials provided in this repository are licensed under the [CC-BY-SA-4.0 license](https://github.com/a1120960/PAC-SWaP?tab=readme-ov-file#). You are free to share and adapt the content as long as you provide appropriate credit, indicate any changes made, and distribute your contributions under the same license. 
 
-For citation purposes, please reference our arXiv paper (UPCOMING), DOI: 
+For citation purposes, please reference our arXiv paper (UPCOMING): 
 
 
 # PURPOSE
