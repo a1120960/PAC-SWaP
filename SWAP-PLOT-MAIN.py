@@ -51,17 +51,41 @@ pio.templates.default = "seaborn"
 # Create a new Plotly figure
 fig = go.Figure()
 
-# Add a horizontal line representing GPS
-horizontal_line = go.Scatter(
+# Add a horizontal line representing GNNS:1s
+gnss_1s_line = go.Scatter(
     x=[1e-3, 5e16],
     y=[4e-12, 4e-12],
     mode='lines',
-    line=dict(color='black', width=0.5, dash='dot'), 
-    name='GPS',
+    line=dict(color='black', width=0.75, dash='dot'), 
+    name='GNSS:1s',
     showlegend=False,
     hoverinfo='skip'
 )
-fig.add_trace(horizontal_line)
+fig.add_trace(gnss_1s_line)
+
+# Add a horizontal line representing GNNS:1e3s
+gnss_1e3s_line = go.Scatter(
+    x=[1e-3, 5e16],
+    y=[1e-13, 1e-13],
+    mode='lines',
+    line=dict(color='black', width=0.75, dash='dot'), 
+    name='GNSS:1e3s',
+    showlegend=False,
+    hoverinfo='skip'
+)
+fig.add_trace(gnss_1e3s_line)
+
+# Add a horizontal line representing GNNS:1e4s
+gnss_1e4s_line = go.Scatter(
+    x=[1e-3, 5e16],
+    y=[1e-14, 1e-14],
+    mode='lines',
+    line=dict(color='black', width=0.75, dash='dot'), 
+    name='GNSS:1e4s',
+    showlegend=False,
+    hoverinfo='skip'
+)
+fig.add_trace(gnss_1e4s_line)
 
 # Add scatter plots for TAU_1e4s and TAU_1e3s with vertical lines
 for df_temp, tau_column, symbol_shape in zip([df_tau_1e4, df_tau_1e3], ['TAU_1e4s', 'TAU_1e3s'], ['circle', 'square']):
@@ -205,11 +229,12 @@ fig.update_layout(
 
 # Add annotation for lab clocks area
 fig.add_annotation(
-    x=0,
+    xref="paper", yref="y",
+    x=0.01,
     y=-16.8,
     text="Lab Clock Performance",
     showarrow=False,
-    align='right',
+    align='left',
     font=dict(size=12, color='rgba(0, 0, 0, 0.8)')
 )
 
@@ -224,15 +249,40 @@ fig.add_annotation(
     font=dict(size=12, color='rgba(0, 0, 0, 0.8)')
 )
 
-# Add annotation for GPS
+# Add annotation for GNNS:1s
 fig.add_annotation(
-    x=-1.5,
+    xref="paper", yref="y",
+    x=0.01,
     y=-11.6,
-    text="GPS @ 1s",
+    text="GNSS:1s",
     showarrow=False,
-    align='right',
+    align='left',
     font=dict(size=12, color='rgba(0, 0, 0, 0.8)')
 )
+
+# add annotation for GNNS:1e3s
+fig.add_annotation(
+    xref="paper", yref="y",
+    x=0.01,
+    y=-13.2,
+    text="GNSS:1e3s",
+    showarrow=False,
+    align='left',
+    font=dict(size=12, color='rgba(0, 0, 0, 0.8)')
+)
+
+# Add annotation for GNSS:1e4s
+fig.add_annotation(
+    xref="paper", yref="y",
+    x=0.01,
+    y=-14.2,
+    text="GNSS:1e4s",
+    showarrow=False,
+    align='left',
+    font=dict(size=12, color='rgba(0, 0, 0, 0.8)')
+)
+
+
 
 # QR code image that links to source data on IPAS page
 with open("IPAS-QR.png", "rb") as image_file:
