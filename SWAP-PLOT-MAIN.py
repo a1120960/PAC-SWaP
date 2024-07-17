@@ -68,7 +68,7 @@ gnss_1e3s_line = go.Scatter(
     x=[1e-3, 5e16],
     y=[1e-13, 1e-13],
     mode='lines',
-    line=dict(color='black', width=0.75, dash='dot'), 
+    line=dict(color='black', width=1.0, dash='dot'), 
     name='GNSS:1e3s',
     showlegend=False,
     hoverinfo='skip'
