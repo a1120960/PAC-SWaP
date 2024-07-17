@@ -128,6 +128,7 @@ scatter_tau1s = px.scatter(
     hover_data={
         'ATOM': True,
         'GROUP': True,
+        'PHYSICS': True,
         'REF_NUM': True,
         'SWAP': True,
         'TAU_1s': True,
@@ -141,6 +142,7 @@ scatter_tau1s = px.scatter(
         'TYPE': '<b>Type</b>',
         'ATOM': '<b>Atom</b>',
         'GROUP': '<b>Group</b>',
+        'PHYSICS': '<b>Physics</b>',   
         'SWAP': '<b>SWaP</b>',
         'TAU_1s': '<b>τ<sub>1s</sub></b>',
         'REF_NUM': '<b>Reference Number</b>'
