@@ -1,4 +1,6 @@
 .vscode/settings.json
+# files to ignore
 index1.html
 style1.css
 SWAP-PLOT-MAIN-OLD.py
+
