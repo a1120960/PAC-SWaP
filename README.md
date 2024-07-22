@@ -52,13 +52,12 @@ For citation purposes, please reference our arXiv paper (UPCOMING):
 - Performance values are the clock frequency stability (ADEV). Plots are initially drawn using a 1 second integration time. Longer integration times (1000 and 10,000) are also plotted if and where that information is available. Where there are multiple ADEV integration times, these are connected with a thin vertical line to the 1 sec marker.
 
 
-
 # DATA and PLOTTING
 - All data is contained in the SWAP_DATA.csv file on the main branch.
 - Performance and SWaP numbers have been taken from publications, official websites, or spec sheets. Where this was not possible I contacted the authors or manufacturer. 
 - References (where available) are all in SWAP_DATA.csv, and linked on the [PAC-SWAP page](https://a1120960.github.io/PAC-SWaP/)
 - In all cases I have attempted to present the numbers accurately and in good faith.
-- If i have made any mistakes, or the numbers need to be updated, please let me know.
+- If I have made any mistakes, or the numbers need to be updated, please let me know.
 
 - The code for the main swap plot is the file: SWAP-PLOT-MAIN.py
 - Any help or advice on how to make these plots and/or data more accessible will be much appreciated. 
