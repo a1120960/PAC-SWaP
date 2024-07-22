@@ -49,7 +49,7 @@ For citation purposes, please reference our arXiv paper (UPCOMING):
     - **Power**: Units of Watts. I have used the power of the entire device. As per Size and Weight, the power demand of everything required for actual operation.
 
 ## Performance 
-- Performance values are the clock frequency stability (ADEV). Plots are initially drawn using a 1 second integration time. Longer integration times are also plotted if and where that information is available.
+- Performance values are the clock frequency stability (ADEV). Plots are initially drawn using a 1 second integration time. Longer integration times (1000 and 10,000) are also plotted if and where that information is available. The 
 
 
 
