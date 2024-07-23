@@ -60,7 +60,7 @@ For citation purposes, please reference our arXiv paper (UPCOMING):
 - If I have made any mistakes, or the numbers need to be updated, please let me know.
 
 - The code for the main and focussed swap plots are in the file: SWAP-PLOT-MAIN.py
-- Any help or advice on how to make these plots and/or data more accessible will be much appreciated. 
+- Any suggestions or advice (or help) on how to make these plots and/or data more accessible would be much appreciated. 
 
 # FUTURE
 - I would like to extend **SWaP** to include other significant barriers to deployability. Ideally these would be something that can be easily captured as a value, so that it can be multiplied by the SWaP number. As an example **SWaP-PC** would add:
