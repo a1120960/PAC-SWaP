@@ -59,7 +59,7 @@ For citation purposes, please reference our arXiv paper (UPCOMING):
 - In all cases I have attempted to present the numbers accurately and in good faith.
 - If I have made any mistakes, or the numbers need to be updated, please let me know.
 
-- The code for the main swap plot is the file: SWAP-PLOT-MAIN.py
+- The code for the main and focussed swap plots are in the file: SWAP-PLOT-MAIN.py
 - Any help or advice on how to make these plots and/or data more accessible will be much appreciated. 
 
 # FUTURE
