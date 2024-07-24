@@ -66,7 +66,7 @@ For citation purposes, please reference our arXiv paper (UPCOMING):
 - I would like to extend **SWaP** to include other significant barriers to deployability. Ideally these would be something that can be easily captured as a value, so that it can be multiplied by the SWaP number. As an example **SWaP-PC** would add:
     - **Personnel**: How many people are required to run the system? For many of the modern portable systems this would be a minimum of a single person to turn the key or press a button, and begin operation. On the other hand some research clocks may need an entire team of people to set up and run the clock. 
     - **Cost**: How much does the system cost? For research clocks this may be hard, if not impossible to determine, or might not want to be revealed.
-- Another factor to explore could be device manufacturability, especially at scale. However, unlike cost and personnel, it will be very difficult to assign a simple scalar value to this. 
+- Another factor to explore could be device manufacturability, especially at scale. However, unlike cost and personnel, it would be very difficult to assign a simple scalar value to.
  
 
 
