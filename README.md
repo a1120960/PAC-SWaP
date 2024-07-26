@@ -30,7 +30,7 @@ For citation purposes, please reference our arXiv paper (UPCOMING):
 - Has some performance measurements and available - publication, pre-publication, white paper, spec sheet etc.
 - At this point I have only included the most common current microwave atomic clocks. There are more, however the intention is to compare the new generation of portable optical atomic clocks to those clocks that currently represent the gold standard. 
 - The INCLUDE field in the SWAP_DATA.csv determines wether a clock will be in the plot. examples of why this might be set to 0:
-    - There may be some clocks that have currently don't have enough data to be plotted.
+    - There may be some clocks that have currently don't have the complete set of data to be plotted.
     - There may be some clocks that have some debate about wether they meet the current inclusion criteria, for example the Cryogenic Sapphire Oscillator (CSO).
 
 ## Portability vs Deployability
