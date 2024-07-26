@@ -64,28 +64,28 @@ gnss_1s_line = go.Scatter(
 fig.add_trace(gnss_1s_line)
 
 # Add a horizontal line representing GNNS:1e3s
-gnss_1e3s_line = go.Scatter(
-    x=[1e-3, 5e16],
-    y=[1e-13, 1e-13],
-    mode='lines',
-    line=dict(color='black', width=1.0, dash='dot'), 
-    name='GNSS:1e3s',
-    showlegend=False,
-    hoverinfo='skip'
-)
-fig.add_trace(gnss_1e3s_line)
+# gnss_1e3s_line = go.Scatter(
+#     x=[1e-3, 5e16],
+#     y=[1e-13, 1e-13],
+#     mode='lines',
+#     line=dict(color='black', width=1.0, dash='dot'), 
+#     name='GNSS:1e3s',
+#     showlegend=False,
+#     hoverinfo='skip'
+# )
+# fig.add_trace(gnss_1e3s_line)
 
 # Add a horizontal line representing GNNS:1e4s
-gnss_1e4s_line = go.Scatter(
-    x=[1e-3, 5e16],
-    y=[1e-14, 1e-14],
-    mode='lines',
-    line=dict(color='black', width=1.0, dash='dot'), 
-    name='GNSS:1e4s',
-    showlegend=False,
-    hoverinfo='skip'
-)
-fig.add_trace(gnss_1e4s_line)
+# gnss_1e4s_line = go.Scatter(
+#     x=[1e-3, 5e16],
+#     y=[1e-14, 1e-14],
+#     mode='lines',
+#     line=dict(color='black', width=1.0, dash='dot'), 
+#     name='GNSS:1e4s',
+#     showlegend=False,
+#     hoverinfo='skip'
+# )
+# fig.add_trace(gnss_1e4s_line)
 
 # Add scatter plots for TAU_1e4s and TAU_1e3s with vertical lines
 for df_temp, tau_column, symbol_shape in zip([df_tau_1e4, df_tau_1e3], ['TAU_1e4s', 'TAU_1e3s'], ['circle', 'square']):
@@ -263,26 +263,26 @@ fig.add_annotation(
 )
 
 # add annotation for GNNS:1e3s
-fig.add_annotation(
-    xref="paper", yref="y",
-    x=0.01,
-    y=-13.2,
-    text="GNSS:1e3s",
-    showarrow=False,
-    align='left',
-    font=dict(size=12, color='rgba(0, 0, 0, 0.8)')
-)
+# fig.add_annotation(
+#     xref="paper", yref="y",
+#     x=0.01,
+#     y=-13.2,
+#     text="GNSS:1e3s",
+#     showarrow=False,
+#     align='left',
+#     font=dict(size=12, color='rgba(0, 0, 0, 0.8)')
+# )
 
 # Add annotation for GNSS:1e4s
-fig.add_annotation(
-    xref="paper", yref="y",
-    x=0.01,
-    y=-14.2,
-    text="GNSS:1e4s",
-    showarrow=False,
-    align='left',
-    font=dict(size=12, color='rgba(0, 0, 0, 0.8)')
-)
+# fig.add_annotation(
+#     xref="paper", yref="y",
+#     x=0.01,
+#     y=-14.2,
+#     text="GNSS:1e4s",
+#     showarrow=False,
+#     align='left',
+#     font=dict(size=12, color='rgba(0, 0, 0, 0.8)')
+# )
 
 
 
