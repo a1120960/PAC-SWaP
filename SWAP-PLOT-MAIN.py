@@ -1,5 +1,6 @@
 """
-QR CODE NOW WORKS ON DOWNLOAD
+- QR CODE NOW WORKS ON DOWNLOAD
+- GNSS for 1 second
 Title: SWAP Data Plotting Script
 Author: Ben White
 Date: 2024
