@@ -50,7 +50,7 @@ For citation purposes, please reference our arXiv paper (UPCOMING):
     - **Power**: Units of Watts. I have used the power of the entire device. As per Size and Weight, the power demand of everything required for actual operation.
 
 ## Performance 
-- Performance values are clock frequency stability (ADEV). Plots are initially drawn using a marker for a 1 second integration time. Longer integration times (1000 seconds and 10,000 seconds) are also plotted if and where that information is available. Where there are multiple ADEV integration times, these are connected with a thin vertical line to the 1 sec marker.
+- Performance values are clock frequency stability (ADEV). Plots are initially drawn using a marker for a 1 second integration time. Longer integration times (1000 seconds and 10,000 seconds) are also plotted if and where that information is available. Where a device has multiple ADEV integration times, these are connected with a thin vertical line to the 1 sec marker.
 
 
 # DATA and PLOTTING
