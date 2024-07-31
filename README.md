@@ -46,8 +46,8 @@ For citation purposes, please reference our arXiv paper (UPCOMING):
 - Overall SWaP has units of cm<sup>3</sup>kgW. This comes from:
     - **Size**: Choice of volume units is arbitrary, but herein I have used the units of cm<sup>3</sup>. Total size includes all system components required for actual operation.
         - for example: physics package + photonics + external cavity + frequency comb = total size. 
-    - **Weight**: Units of kgs. I have used the weight of the entire device. As per Size,  weight of everything required for actual operation. 
-    - **Power**: Units of Watts. I have used the power of the entire device. As per Size and Weight, the power demand of everything required for actual operation.
+    - **Weight**: Units are kgs. I have used the weight of the entire device. As per Size,  weight of everything required for actual operation. 
+    - **Power**: Units are Watts. I have used the power of the entire device. As per Size and Weight, the power demand of everything required for actual operation.
 
 ## Performance 
 - Performance values are clock frequency stability (ADEV). Plots are initially drawn using a marker for a 1 second integration time. Longer integration times (1000 seconds and 10,000 seconds) are also plotted if and where that information is available. Where a device has multiple ADEV integration times, these are connected with a thin vertical line to the 1 sec marker.
