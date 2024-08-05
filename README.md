@@ -29,7 +29,7 @@ For citation purposes, please reference our arXiv paper (UPCOMING):
 # INCLUSION CRITERIA 
 - The clock is an atomic clock - it is based on an atomic transition.
 - This clock is **portable**. This may be an obvious quality (for example the CSAC), or a quality that is stated as such in a publication or promotional (spec sheet, press release, etc) material. In a general terms it is a clock that can be moved and operated outside of the laboratory.
-- Has some performance measurements and available - publication, pre-publication, white paper, spec sheet etc.
+- There are performance measurements and are available in some form - publication, pre-publication, white paper, spec sheet etc.
 - At this point I have only included the most common current microwave atomic clocks. There are more, however the intention is to compare the new generation of portable optical atomic clocks to those clocks that currently represent the gold standard. 
 - The INCLUDE field in the SWAP_DATA.csv determines wether a clock will be in the plot. 1 = include, 0 = do not include. Some examples of why this might be set to 0:
     - There may be some devices that we don't currently have the complete set of data to be plotted.
