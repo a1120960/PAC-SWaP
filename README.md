@@ -19,7 +19,7 @@ For citation purposes, please reference our arXiv paper (UPCOMING):
 
 
 # PURPOSE
-- This repository is intended to be a resource for those interested and or involved in the growing world of portable atomic clocks. In particular the new generation of portable optical clocks. 
+- This repository is intended to be a resource for those interested and or involved in the growing world of portable atomic clocks. In particular the main focus is on the new generation of portable optical clocks. 
 - We specifically look at the barriers to deployment: the Size, Weight and Power (SWaP) of the clock, and how these affect clock performance. 
 - I wont claim it is an authority on PAC-SWaP, but will hopefully serve as the starting point for literature reviews and the like. 
 - Over time I'd like this repository to track the progress of clock technology as the new generation of optical atomic clocks leave the laboratory and become commercially available. 
