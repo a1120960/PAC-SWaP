@@ -1,5 +1,5 @@
 # PAC-SWaP
-Portable Atomic Clocks - Size, Weight and Power information repository.
+Portable Atomic Clocks - Size, Weight and Power (SWaP) information, data and code.
 
 # Table of Contents
 1. [LICENSE AND ATTRIBUTION](#license-and-attribution)
