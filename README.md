@@ -37,7 +37,6 @@ For citation purposes, please reference our arXiv paper (UPCOMING):
     - **Portable**: A clock that can be taken outside the laboratory, but not necessarily taken anywhere. For example it may need specific power demands, vehicle access, extended time to setup etc. 
     - **Deployable**: A clock that can be moved and used across varied environments, can be setup and running quickly. 
 
-
 # FOCUS
 - The main focus here is on how the SWaP of a system affects its performance. For clarification they are defined as follows:
 ## SWaP
@@ -49,7 +48,6 @@ For citation purposes, please reference our arXiv paper (UPCOMING):
 
 ## Performance 
 - Performance values are clock frequency stability (ADEV). Plots are initially drawn using a marker for a 1 second integration time. Longer integration times (1000 seconds and 10,000 seconds) are also plotted if and where that information is available. Where a device has multiple ADEV integration times, these are connected with a thin vertical line to the 1 sec marker.
-
 
 # DATA and PLOTTING
 - All data is contained in the SWAP_DATA.csv file on the main branch.
@@ -66,9 +64,6 @@ For citation purposes, please reference our arXiv paper (UPCOMING):
     - **Personnel**: How many people are required to run the system? For many of the modern portable systems this would be a minimum of a single person to turn the key or press a button, and begin operation. On the other hand some research clocks may need an entire team of people to set up and run the clock. 
     - **Cost**: How much does the system cost? For research clocks this may be hard, if not impossible to determine, or might not want to be revealed.
 - Another factor to explore could be device manufacturability, especially at scale. However, unlike cost and personnel, it would be very difficult to assign a simple scalar value to.
- 
-
-
 
 # DISCLAIMER
 - I make no claim that this is a comprehensive database of every single device, however I plan to keep it updated as new devices/results are published/announced. As well as adding anything current or from the past that I have missed.
