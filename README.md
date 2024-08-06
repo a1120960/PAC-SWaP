@@ -10,8 +10,6 @@ Portable Atomic Clocks - Size, Weight and Power (SWaP) information, data and cod
 6. [FUTURE](#future)
 7. [DISCLAIMER](#disclaimer)
 
-
-
 # LICENSE AND ATTRIBUTION
 All information and materials provided in this repository are licensed under the [CC-BY-SA-4.0 license](https://github.com/a1120960/PAC-SWaP?tab=readme-ov-file#). You are free to share and adapt the content as long as you provide appropriate credit, indicate any changes made, and distribute your contributions under the same license. 
 
@@ -24,7 +22,6 @@ For citation purposes, please reference our arXiv paper (UPCOMING):
 - I wont claim it is an authority on PAC-SWaP, but will hopefully serve as the starting point for literature reviews and the like. 
 - Over time I'd like this repository to track the progress of clock technology as the new generation of optical atomic clocks leave the laboratory and become commercially available. 
 - All of the data and plots shown on the [IPAS Portable Atomic Clocks page](https://www.adelaide.edu.au/ipas/research-groups/precision-measurement-group/portable-atomic-clocks/precision-timing-plot) and the [PAC-SWAP page](https://a1120960.github.io/PAC-SWaP/) will be available in this repository. 
-
 
 # INCLUSION CRITERIA 
 - The clock is an atomic clock - it is based on an atomic transition.
