@@ -66,6 +66,6 @@ For citation purposes, please reference our arXiv paper (UPCOMING):
 - Another factor to explore could be device manufacturability, especially at scale. However, unlike cost and personnel, it would be very difficult to assign a simple scalar value to.
 
 # DISCLAIMER
-- I make no claim that this is a comprehensive database of every single device, however I plan to keep it updated as new devices/results are published/announced. As well as adding anything current or from the past that I have missed.
+- We make no claim that this is a comprehensive database of every single device. However, I plan to keep it updated as new devices/results are published/announced. As well as adding anything current or from the past that I have missed.
 - **Its not a competition!**. The intention isn't to present this as a ranking or leader-board of clock performance and SWaP. Rather it is just a representation of where the technology currently stands.
 
