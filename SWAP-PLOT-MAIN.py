@@ -14,7 +14,7 @@ it exports both plots as auto-scaled HTML files.
 Usage:
 - Ensure the SWAP_DATA.csv file is in the same directory as this script.
 - The QRlink.png image file should also be in the same directory.
-- Run the script to generate an HTML file with the plot. (can be changed to other formats)
+- Run the script to generate an HTML file with the plot. (can be changed to other formats such as PNG, PDF, BMP etc)
 
 Dependencies:
 - os
