@@ -144,22 +144,35 @@ NOTE: For the best viewing experience its recommended viewing this website using
 
 
 
-<h2 id = "commercial">Commercial atomic clock performance</h2>
+<h2 id = "commercial">Commercial high performance clocks: SWaP & performance</h2>
 
 
-<p class="text-block"> This section details the performance of currently available commercial atomic clocks. This list of clocks is taken from table 1, on page 8 of the <a href="https://eprintspublications.npl.co.uk/9987/"> NPL holdover atomic clock landscape review. I refer the reader to that document for more details.</a>
+<p class="text-block"> This section details the SWaP and performance of currently available commercial atomic clocks. This list of clocks is inspired by table 1, on page 8 of the <a href="https://eprintspublications.npl.co.uk/9987/"> NPL holdover atomic clock landscape review.</a> This list of clocks includes some overlap with devices in the previous sections as well as the addition of crystal oscillators.
 </p>
 
-<iframe id = 'Fig_commercial' src="commercial_atomic_clock_performance.html" width="1000" height="820"></iframe>
+<iframe id = 'Fig_commercial_swap' src="commercial_swap.html" width="1000" height="500"></iframe>
 </iframe>
-<p class="caption"><strong>Figure 4:</strong> Fractional frequency stability of commercially available atomic clocks. Each clock is selectable from the legend. Double clicking a clock will isolate that clocks trace, other clocks can then be selected to compare performance. Hovering over a marker will reveal extra information about the clock where available. Click and drag your mouse to select a region to zoom in on.</p>
+<p class="caption"><strong>Figure 4:</strong> Performance at 1sec integration time as a function of device SWaP for commercially available clocks. Clocks are color coded according to categories defined in the original NPL document. Hovering over a marker will reveal more information about each device, including the technology the clock is based on, and performance at longer integration times. <a href="#Fig_commercial">Figure 5</a> provides more detail on each clocks performance. </p>
+
+<p class="text-block">
+    <a href="#Fig_commercial_swap">Figure 4</a> is of the same style as those previous. Here we look specifically at commercially available devices inspired by the NPL document. The data demonstrates the same trend as the previous plots. the ADEV for 1sec integration times improves as the SWaP of the device increases. The data points lack text labels as the sheer number of devices means labels are illegible. There are also a lot of devices which may occupy the same point on the plot. In order to resolve all of the devices one will need to zoom in on areas that are congested. In general the 'Strategic' clocks have the best performance, at the cost of additional SWaP, and conversely the low SWaP 'chip-scale' devices have lesser performance. We refer the reader to the <a href="https://eprintspublications.npl.co.uk/9987/">original NPL document</a> for more detail regarding the determination of clock category.</p>
+
+<p class="text-block">The 1 second ADEV doesn't describe the whole picture pf commercial clock performance. Thankfully as spec sheets with data are readily available we can also plot out the performance of each clock over longer integration times.</p>
+
+
+<iframe id = 'Fig_commercial' src="commercial_atomic_clock_performance.html" width="1000" height="780"></iframe>
+</iframe>
+<p class="caption"><strong>Figure 5:</strong> Fractional frequency stability of commercially available atomic clocks. Each clock is selectable from the legend. Double clicking a clock will isolate that clocks trace, other clocks can then be selected to compare performance. Hovering over a marker will reveal extra information about the clock where available. Click and drag your mouse to select a region to zoom in on.</p>
 
 
 <p class="text-block"> 
-    <a href="#Fig_commercial">Figure 4</a> shows the fractional frequency stability for commercially available atomic clocks. The clocks are divided into the categories (hover over a marker to reveal the category information) used in the original NPL table. Those categories are - chip scale, tactical, strategic and space. Please refer to the original document for more information on the determination of these categories. The focus on this plot is performance, however the SWaP for each clock is available by hovering over a marker. </p>
+    <a href="#Fig_commercial">Figure 5</a> shows the fractional frequency stability for commercially available atomic clocks. Please refer to the original document for more information on the determination of clock categories. The focus on this plot is performance, however the SWaP for each clock is available by hovering over a marker. </p>
 
 <p class="text-block"> 
-    This section is a work in progress. I will be adding the source data (as a csv) and code used to create this plot soon. At this point I don't offer a reference list, however the data sheet for each clock listed can be easily found by searching the clock name in the legend (which is how i compiled the data).</p>
+    This section is a work in progress. I will be adding the source data (as a csv) and code used to create this plot soon. At this point I don't offer a reference list, however the data sheet for each clock listed can be easily found by searching the clock name in the legend (which is how i compiled the data). </p>
+
+<p class="text-block"> 
+    I will also be adding this collection of commercial clocks to the main swap plot - Once i can work out a sensible way to display everything without it looking like a mess. </p>
 
 
 <!-- <h2 id="atom-plot">Atomic species</h2>
