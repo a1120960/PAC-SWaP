@@ -43,7 +43,7 @@ For citation purposes, please reference our arXiv paper, (UPCOMING):
 
 <h3>Contents</h3>
     <ul>
-        <li><a href="#main-plot">SWaP vs Performance</a></li>
+        <li><a href="#main-plot">Cutting edge: SWaP vs Performance</a></li>
         <li><a href="#sub-plots">Breaking down Size, Weight and Power</a></li>
         <li><a href="#commercial">Commercial high performance clocks: SWaP & performance</a></li>
         <!-- <li><a href="#atom-plot">Atomic species and sample temperature</a></li> -->
@@ -57,7 +57,7 @@ For citation purposes, please reference our arXiv paper, (UPCOMING):
 
 
 
-<h2 id="main-plot">SWaP vs Performance plot</h2>
+<h2 id="main-plot">Cutting edge: SWaP vs Performance plot</h2>
 
 <p class="text-block"> Atomic clocks are currently the best source of precision timekeeping. 
     Optical atomic clocks are the best atomic clocks, however up until very recently, have been confined to the laboratory. 
@@ -119,6 +119,12 @@ NOTE: For the best viewing experience its recommended viewing this website using
 <p class="text-block"> All data for these plots has been sourced from the <a href="#references">references</a> provided. Where necessary any extra information has been obtained via communication with the researchers and or manufacturers. 
 </p>
 
+<iframe id = 'Fig_cutting_edge_ADEV' src="SWAP-ADEV.html" width="1000" height="650"></iframe>
+</iframe>
+<p class="caption"><strong>Figure 3:</strong> Performance of the latest portable atomic clocks. The performance of the clocks from the previous plots are displayed as traditional ADEV plots, showing fractional frequency stability as a function of integration time. Each clock is selectable from the legend. Double clicking a clock on the legend will isolate that clocks trace, other clocks can then be selected to compare performance. Hovering over a marker will reveal extra information about the clock where available. Click and drag your mouse to select a region to zoom in on.</p>
+
+<p class="text-block"><a href="#Fig_cutting_edge_ADEV">Figure 3</a> shows the performance of each clock as a function of the measurement time.
+</p>
 
 
 
@@ -130,10 +136,10 @@ NOTE: For the best viewing experience its recommended viewing this website using
 
 <iframe id = 'Fig3' src="SWAP-PLOT-SLIDERS.html" width="1000" height="650">
 </iframe>
-<p class="caption"><strong>Figure 3:</strong> Separately plotting the 1 second ADEV of each clock as a function of its Size, Weight and Power. Units for Size and Weight can be changed using the sliders below each plot </p>
+<p class="caption"><strong>Figure 4:</strong> Separately plotting the 1 second ADEV of each clock as a function of its Size, Weight and Power. Units for Size and Weight can be changed using the sliders below each plot </p>
 
 <p class="text-block"> 
-    For <a href="#Fig3">Figure 3</a> the 1 second ADEV vs each SWaP metric is plotted. While the traces are slightly different for each individual metric, for the most part the clocks show the same distribution for each dimension of SWaP as they do for the total SWaP value. The benefit of visualizing the clocks in this way allows the viewer to more easily picture the scale of each metric and therefore the device. Individually the components of: cm<sup>3</sup>, kg and Watts are easier to relate to than the extremely large numbers associated with the SWaP units of cm<sup>3</sup>kgW.</p>
+    For <a href="#Fig3">Figure 4</a> the 1 second ADEV vs each SWaP metric is plotted. While the traces are slightly different for each individual metric, for the most part the clocks show the same distribution for each dimension of SWaP as they do for the total SWaP value. The benefit of visualizing the clocks in this way allows the viewer to more easily picture the scale of each metric and therefore the device. Individually the components of: cm<sup>3</sup>, kg and Watts are easier to relate to than the extremely large numbers associated with the SWaP units of cm<sup>3</sup>kgW.</p>
 
 <p class="text-block"> You can switch between preferred size units of cm<sup>3</sup> and litres, and weight units of kg and pounds (lbs), using the sliders underneath each plot. </p>
 
@@ -152,21 +158,21 @@ NOTE: For the best viewing experience its recommended viewing this website using
 
 <iframe id = 'Fig_commercial_swap' src="commercial_swap.html" width="1000" height="500"></iframe>
 </iframe>
-<p class="caption"><strong>Figure 4:</strong> Performance at 1sec integration time as a function of device SWaP for commercially available clocks. Clocks are color coded according to categories defined in the original NPL document. Hovering over a marker will reveal more information about each device, including the technology the clock is based on, and performance at longer integration times.<a href="#Fig_commercial"> Figure 5</a> provides more detail on each clocks performance. </p>
+<p class="caption"><strong>Figure 5:</strong> Performance at 1sec integration time as a function of device SWaP for commercially available clocks. Clocks are color coded according to categories defined in the original NPL document. Hovering over a marker will reveal more information about each device, including the technology the clock is based on, and performance at longer integration times.<a href="#Fig_commercial"> Figure 6</a> provides more detail on each clocks performance. </p>
 
 <p class="text-block">
-    <a href="#Fig_commercial_swap">Figure 4</a> is of the same style as the previous SWaP plots. Here we look specifically at commercially available devices inspired by the NPL document. The data demonstrates the same trend as the previous plots. the ADEV for 1sec integration times improves as the SWaP of the device increases. The data points lack text labels as the number of devices makes any attempt at labelling illegible. There are also some devices which may occupy the same point on the plot. In order to resolve all of the devices one will need to zoom in on areas that are congested and use the hover function. In general the 'Strategic' clocks have the best performance, at the cost of additional SWaP, and conversely the low SWaP 'chip-scale' devices have lesser performance. We refer the reader to the <a href="https://eprintspublications.npl.co.uk/9987/">original NPL document</a> for more detail regarding the determination of clock category.</p>
+    <a href="#Fig_commercial_swap">Figure 5</a> is of the same style as the previous SWaP plots. Here we look specifically at commercially available devices inspired by the NPL document. The data demonstrates the same trend as the previous plots. the ADEV for 1sec integration times improves as the SWaP of the device increases. The data points lack text labels as the number of devices makes any attempt at labelling illegible. There are also some devices which may occupy the same point on the plot. In order to resolve all of the devices one will need to zoom in on areas that are congested and use the hover function. In general the 'Strategic' clocks have the best performance, at the cost of additional SWaP, and conversely the low SWaP 'chip-scale' devices have lesser performance. We refer the reader to the <a href="https://eprintspublications.npl.co.uk/9987/">original NPL document</a> for more detail regarding the determination of clock category.</p>
 
 <p class="text-block">The 1 second ADEV doesn't describe the whole picture of commercial clock performance. Thankfully as these are commercial devices, spec sheets with data are readily available, allowing us to visualize the performance of each clock over longer integration times.</p>
 
 
 <iframe id = 'Fig_commercial' src="commercial_atomic_clock_performance.html" width="1000" height="780"></iframe>
 </iframe>
-<p class="caption"><strong>Figure 5:</strong> Fractional frequency stability of commercially available atomic clocks. Each clock is selectable from the legend. Double clicking a clock on the legend will isolate that clocks trace, other clocks can then be selected to compare performance. Hovering over a marker will reveal extra information about the clock where available. Click and drag your mouse to select a region to zoom in on.</p>
+<p class="caption"><strong>Figure 6:</strong> Fractional frequency stability of commercially available atomic clocks. Each clock is selectable from the legend. Double clicking a clock on the legend will isolate that clocks trace, other clocks can then be selected to compare performance. Hovering over a marker will reveal extra information about the clock where available. Click and drag your mouse to select a region to zoom in on.</p>
 
 
 <p class="text-block"> 
-    <a href="#Fig_commercial">Figure 5</a> shows the fractional frequency stability for commercially available atomic clocks. Please refer to the original document for more information on the determination of clock categories. The focus on this plot is performance, however the SWaP for each clock is available by hovering over a marker. </p>
+    <a href="#Fig_commercial">Figure 6</a> shows the fractional frequency stability for commercially available atomic clocks. Please refer to the original document for more information on the determination of clock categories. The focus on this plot is performance, however the SWaP for each clock is available by hovering over a marker. </p>
 
 <p class="text-block"> 
     This section is a work in progress. I will be adding the source data (as a csv) and code used to create this plot soon. At this point I don't offer a reference list, however the data sheet for each clock listed can be easily found by searching the clock name in the legend (which is how i compiled the data). </p>
@@ -194,7 +200,7 @@ NOTE: For the best viewing experience its recommended viewing this website using
 <h2 id="updates"> Updates</h2>
 
 <div class="text-block">
-    <p>2024-09-11: Added Commercial clock plot</p> 
+    <p>2024-09-11: Added Commercial clock plot. ADEV plot for cutting edge clocks.</p> 
 
 
 
