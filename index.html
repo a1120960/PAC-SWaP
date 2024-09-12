@@ -11,7 +11,7 @@
 
 
 
-<h1 id="PAGE TITLE">Visualizing the SWaP of Portable Atomic Clocks</h1>
+<h1 class="text-block" id="PAGE TITLE">Visualizing the SWaP and Performance of Portable Atomic Clocks</h1>
 
 
 
@@ -46,6 +46,7 @@ For citation purposes, please reference our arXiv paper, (UPCOMING):
         <li><a href="#main-plot">Cutting edge: SWaP vs Performance</a></li>
         <li><a href="#sub-plots">Breaking down Size, Weight and Power</a></li>
         <li><a href="#commercial">Commercial high performance clocks: SWaP & performance</a></li>
+        <li><a href="#combined">Combined ADEV plots</a></li>
         <!-- <li><a href="#atom-plot">Atomic species and sample temperature</a></li> -->
         <li><a href="#updates">Updates</a></li>
         <li><a href="#references">References</a></li>
@@ -121,7 +122,7 @@ NOTE: For the best viewing experience its recommended viewing this website using
 
 <iframe id = 'Fig_cutting_edge_ADEV' src="SWAP-ADEV.html" width="1000" height="650"></iframe>
 </iframe>
-<p class="caption"><strong>Figure 3:</strong> Performance of the latest portable atomic clocks. The performance of the clocks from the previous plots are displayed as traditional ADEV plots, showing fractional frequency stability as a function of integration time. Each clock is selectable from the legend. Double clicking a clock on the legend will isolate that clocks trace, other clocks can then be selected to compare performance. Hovering over a marker will reveal extra information about the clock where available. Click and drag your mouse to select a region to zoom in on.</p>
+<p class="caption"><strong>Figure 3:</strong> Performance of the latest portable atomic clocks. The performance of the clocks from the previous plots are displayed as traditional ADEV plots, showing fractional frequency stability as a function of integration time. Legend is sorted by ADEV at 1 second performance. Each clock is selectable from the legend. Double clicking a clock on the legend will isolate that clocks trace, other clocks can then be selected to compare performance. Hovering over a marker will reveal extra information about the clock where available. Click and drag your mouse to select a region to zoom in on.</p>
 
 <p class="text-block"><a href="#Fig_cutting_edge_ADEV">Figure 3</a> shows the performance of each clock as a function of the measurement time.
 </p>
@@ -168,7 +169,7 @@ NOTE: For the best viewing experience its recommended viewing this website using
 
 <iframe id = 'Fig_commercial' src="commercial_atomic_clock_performance.html" width="1000" height="780"></iframe>
 </iframe>
-<p class="caption"><strong>Figure 6:</strong> Fractional frequency stability of commercially available atomic clocks. Each clock is selectable from the legend. Double clicking a clock on the legend will isolate that clocks trace, other clocks can then be selected to compare performance. Hovering over a marker will reveal extra information about the clock where available. Click and drag your mouse to select a region to zoom in on.</p>
+<p class="caption"><strong>Figure 6:</strong> Fractional frequency stability of commercially available atomic clocks. Legend is sorted by ADEV at 1 second performance. Each clock is selectable from the legend. Double clicking a clock on the legend will isolate that clocks trace, other clocks can then be selected to compare performance. Hovering over a marker will reveal extra information about the clock where available. Click and drag your mouse to select a region to zoom in on.</p>
 
 
 <p class="text-block"> 
@@ -195,12 +196,24 @@ NOTE: For the best viewing experience its recommended viewing this website using
 </p>
 
  -->
+ <h2 id="combined"> Combined ADEV plots</h2>
+
+ <div class="text-block">
+    <p>Combining the ADEV plots from the latest portable atomic clocks with those commercially available.</p> 
+
+
+<iframe id = 'Fig_combined_ADEV' src="MONSTER-ADEV.html" width="1000" height="780"></iframe>
+</iframe>
+<p class="caption"><strong>Figure 7:</strong> Combined cutting edge and commercial clocks ADEV plots. Legend is sorted by ADEV at 1 second performance. Each clock is selectable from the legend. Double clicking a clock on the legend will isolate that clocks trace, other clocks can then be selected to compare performance. Hovering over a marker will reveal extra information about the clock where available. Click and drag your mouse to select a region to zoom in on</p>
+
+<div class="text-block">
+    <p>I am including this so that both the performance of all clocks can be compared. The plot itself is very messy and with so much overlap it can be difficult to read. The number of devices means that the legend is taller than the plot making it difficult to fit on screen without having to scroll through the legend. I will try to improve the readability of this plot over time. </p> 
 
 
 <h2 id="updates"> Updates</h2>
 
 <div class="text-block">
-    <p>2024-09-11: Added Commercial clock plot. ADEV plot for cutting edge clocks.</p> 
+    <p>2024-09-11: Added Commercial clock plot & ADEV plots.</p> 
 
 
 
