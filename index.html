@@ -25,8 +25,7 @@
 All information and materials provided are licensed under the  <a href="https://github.com/a1120960/PAC-SWaP/blob/main/LICENSE.txt"> CC-BY-SA-4.0 license.</a>. You are free to share and adapt the content as long as you provide appropriate credit, indicate any changes made, and distribute your contributions under the same license. 
 <br>
 <br>
-For citation purposes, please reference our arXiv paper, (UPCOMING):
-
+For citation purposes, please reference our arXiv report: <a href="https://doi.org/10.48550/arXiv.2409.08484">The SWaP plot: Visualising the performance of portable atomic clocks as a function of their size, weight and power. https://doi.org/10.48550/arXiv.2409.08484.</a>
 </p>
 
 <p class="text-block">
@@ -124,7 +123,7 @@ NOTE: For the best viewing experience its recommended viewing this website using
 </iframe>
 <p class="caption"><strong>Figure 3:</strong> Performance of the latest portable atomic clocks. The performance of the clocks from the previous plots are displayed as traditional ADEV plots, showing fractional frequency stability as a function of integration time. Legend is sorted by ADEV at 1 second performance. Each clock is selectable from the legend. Double clicking a clock on the legend will isolate that clocks trace, other clocks can then be selected to compare performance. Hovering over a marker will reveal extra information about the clock where available. Click and drag your mouse to select a region to zoom in on.</p>
 
-<p class="text-block"><a href="#Fig_cutting_edge_ADEV">Figure 3</a> shows the performance of each clock as a function of the measurement time.
+<p class="text-block"><a href="#Fig_cutting_edge_ADEV">Figure 3</a> shows the fractional frequency stability of each clock as a function of the measurement time. I originally collated performance data from the papers at three integration times - 1s, 1000s and 10000s. As these times were commonly reported for most systems, and were used to compile the main SWaP plot <a href="#Fig1">(Figure 1)</a>. I will at some stage return to the original papers and extract the other integration times, where available, and flesh this plot out with greater resolution.
 </p>
 
 
@@ -162,7 +161,8 @@ NOTE: For the best viewing experience its recommended viewing this website using
 <p class="caption"><strong>Figure 5:</strong> Performance at 1sec integration time as a function of device SWaP for commercially available clocks. Clocks are color coded according to categories defined in the original NPL document. Hovering over a marker will reveal more information about each device, including the technology the clock is based on, and performance at longer integration times.<a href="#Fig_commercial"> Figure 6</a> provides more detail on each clocks performance. </p>
 
 <p class="text-block">
-    <a href="#Fig_commercial_swap">Figure 5</a> is of the same style as the previous SWaP plots. Here we look specifically at commercially available devices inspired by the NPL document. The data demonstrates the same trend as the previous plots. the ADEV for 1sec integration times improves as the SWaP of the device increases. The data points lack text labels as the number of devices makes any attempt at labelling illegible. There are also some devices which may occupy the same point on the plot. In order to resolve all of the devices one will need to zoom in on areas that are congested and use the hover function. In general the 'Strategic' clocks have the best performance, at the cost of additional SWaP, and conversely the low SWaP 'chip-scale' devices have lesser performance. We refer the reader to the <a href="https://eprintspublications.npl.co.uk/9987/">original NPL document</a> for more detail regarding the determination of clock category.</p>
+    <a href="#Fig_commercial_swap">Figure 5</a> is of the same style as the previous SWaP plots. Here we look specifically at commercially available devices inspired by the NPL document. The data demonstrates the same trend as the previous plots. the ADEV for 1sec integration times improves as the SWaP of the device increases. The data points lack text labels as the number of devices makes any attempt at labelling illegible. There are also some devices which may occupy the same point on the plot. In order to resolve all of the devices one will need to zoom in on areas that are congested and use the hover function. In general the 'Strategic' clocks have the best performance, at the cost of additional SWaP, and conversely the low SWaP 'chip-scale' devices have lesser performance. Of important note is that (current September 2024) only two devices in this selection are optical clocks: The SpectraDynamics cRb, and the MuQuans MuClock. We refer the reader to the <a href="https://eprintspublications.npl.co.uk/9987/">original NPL document</a> for much more detail regarding holdover devices, and relevant to this plot, the determination of clock category used here.</p>
+
 
 <p class="text-block">The 1 second ADEV doesn't describe the whole picture of commercial clock performance. Thankfully as these are commercial devices, spec sheets with data are readily available, allowing us to visualize the performance of each clock over longer integration times.</p>
 
@@ -194,7 +194,7 @@ NOTE: For the best viewing experience its recommended viewing this website using
 <p class="caption"><strong>Figure 7:</strong> Combined cutting edge and commercial clocks ADEV plots. Legend is sorted by ADEV at 1 second performance. Each clock is selectable from the legend. Double clicking a clock on the legend will isolate that clocks trace, other clocks can then be selected to compare performance. Hovering over a marker will reveal extra information about the clock where available. Click and drag your mouse to select a region to zoom in on</p>
 
 <div class="text-block">
-    <p>I am including this plot for completeness so the performance of all clocks can be compared. With so much overlap it can be difficult to read, and I am not that happy about the color map, but it was the most 'pleasant' of all those i tried. The number of devices means that the legend is taller than the plot making it difficult to fit on screen without having to scroll through the legend. Over time I will try to improve the readability of this and the other plots. Any suggestions are welcome.</p> 
+    <p>I am including this combined plot for completeness, so that the performance of all clocks can be compared. With so much overlap it can be difficult to read, and I am not that happy about the color map, but it was the most 'pleasant' of all those I tried. The number of devices means that the legend is taller than the plot making it difficult to fit on screen without having to scroll through the legend. Over time I will try to improve the readability of this and the other plots. Any suggestions are welcome.</p> 
 
 
 <h2 id="updates"> Updates</h2>
@@ -287,17 +287,35 @@ NOTE: For the best viewing experience its recommended viewing this website using
 
 
 
-<h2 id="Links"> Useful links</h2>
+<h2 id="links"> Useful links</h2>
 
 <p>
     <a href="https://github.com/a1120960/PAC-SWaP"> PAC-SWaP GitHub page</a>.
 </p>
-    <a href="https://www.adelaide.edu.au/ipas/research-groups/precision-measurement-group/portable-atomic-clocks/precision-timing-plot"> IPAS Portable Atomic Clocks</a>.
+
+
+<p>
+    <a href="https://www.adelaide.edu.au/ipas/research-groups/precision-measurement-group/portable-atomic-clocks"> IPAS Portable Atomic Clock group</a>.
 </p>
+
+
+
+<p>
+    <a href="https://www.adelaide.edu.au/ipas/research-groups/precision-measurement-group/portable-atomic-clocks/precision-timing-plot"> IPAS Precision Timing Plot</a>.
+</p>
+
+
 
 <p>
     <a href="https://eprintspublications.npl.co.uk/9987/"> NPL holdover atomic clock landscape review.</a>
 </p>
+
+
+
+<p>
+    <a href="https://doi.org/10.48550/arXiv.2409.08484"> The SWaP plot: Visualising the performance of portable atomic clocks as a function of their size, weight and power. arXiv report</a>
+</p>
+
 
 
 
