@@ -323,8 +323,24 @@ fig.update_layout(
     margin=dict(t=70, b=50)
 )
 
-# Save the plot as an HTML file
-fig.write_html('SWAP-PLOT-MAIN.html')
+# # Save the plot as an HTML file
+# fig.write_html('SWAP-PLOT-MAIN.html')
+
+
+# Define the config for higher resolution PNG export, using only the scale
+config = {
+    'toImageButtonOptions': {
+        'format': 'png',  # Export as PNG
+        'filename': 'SWAP-PLOT-MAIN',  # Filename
+        'scale': 5  # Scale factor for higher resolution
+    }
+}
+
+# Export to an HTML file with the config
+pio.write_html(fig, 'SWAP-PLOT-MAIN.html', config=config)
+
+
+
 
 # Create a deep copy of the original figure for focused plot
 fig2 = copy.deepcopy(fig)
