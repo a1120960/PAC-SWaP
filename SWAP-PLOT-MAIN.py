@@ -290,7 +290,8 @@ fig.add_annotation(
 
 
 # QR code image that links to source data on IPAS page
-with open("IPAS-QR.png", "rb") as image_file:
+# with open("IPAS-QR.png", "rb") as image_file:
+with open("IPAS-QR-bitly.png", "rb") as image_file:
     base64_image = base64.b64encode(image_file.read()).decode('utf-8')
 
 # Add the QR code image to the plot
