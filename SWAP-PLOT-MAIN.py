@@ -411,5 +411,18 @@ fig2.add_annotation(
 )
 
 
+# Define the config for higher resolution PNG export, using only the scale
+config2 = {
+    'toImageButtonOptions': {
+        'format': 'png',  # Export as PNG
+        'filename': 'SWAP-PLOT-FOCUS',  # Filename
+        'scale': 5  # Scale factor for higher resolution
+    }
+}
+
+# Export to an HTML file with the config
+# pio.write_html(fig, 'SWAP-PLOT-MAIN.html', config=config)
+
+
 # write html file for focused plot
-fig2.write_html('SWAP-PLOT-FOCUS.html')
+pio.write_html(fig2, 'SWAP-PLOT-FOCUS.html', config=config2)
