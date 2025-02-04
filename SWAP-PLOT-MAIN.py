@@ -55,40 +55,56 @@ pio.templates.default = "seaborn"
 fig = go.Figure()
 
 # Add a horizontal line representing GNNS:1s
-gnss_1s_line = go.Scatter(
-    x=[1e-3, 5e16],
-    y=[1.73e-12, 1.73e-12],
-    mode='lines',
-    line=dict(color='black', width=1.0, dash='dot'), 
-    name='GNSS:1s',
-    showlegend=False,
-    hoverinfo='skip'
-)
-fig.add_trace(gnss_1s_line)
+# decided 1s GNSS is not useful for this plot
+# gnss_1s_line = go.Scatter(
+#     x=[1e-3, 5e16],
+#     y=[1.73e-12, 1.73e-12],
+#     mode='lines',
+#     line=dict(color='black', width=1.0, dash='dot'), 
+#     name='GNSS:1s',
+#     showlegend=False,
+#     hoverinfo='skip'
+# )
+# fig.add_trace(gnss_1s_line)
 
 # Add a horizontal line representing GNNS:1e3s
-# gnss_1e3s_line = go.Scatter(
-#     x=[1e-3, 5e16],
-#     y=[1e-13, 1e-13],
-#     mode='lines',
-#     line=dict(color='black', width=1.0, dash='dot'), 
-#     name='GNSS:1e3s',
-#     showlegend=False,
-#     hoverinfo='skip'
-# )
-# fig.add_trace(gnss_1e3s_line)
+gps_1e3s_line = go.Scatter(
+    x=[1e-3, 5e16],
+    y=[1.7e-11, 1.7e-11],
+    mode='lines',
+    line=dict(color='black', width=1.0, dash='dot'), 
+    name='GPS:1e3s',
+    showlegend=False,
+    hoverinfo='skip', 
+    opacity=0.5
+)
+fig.add_trace(gps_1e3s_line)
 
 # Add a horizontal line representing GNNS:1e4s
-# gnss_1e4s_line = go.Scatter(
-#     x=[1e-3, 5e16],
-#     y=[1e-14, 1e-14],
-#     mode='lines',
-#     line=dict(color='black', width=1.0, dash='dot'), 
-#     name='GNSS:1e4s',
-#     showlegend=False,
-#     hoverinfo='skip'
-# )
-# fig.add_trace(gnss_1e4s_line)
+gps_1e4s_line = go.Scatter(
+    x=[1e-3, 5e16],
+    y=[1.7e-12, 1e-12],
+    mode='lines',
+    line=dict(color='black', width=1.0, dash='dot'), 
+    name='GPS:1e4s',
+    showlegend=False,
+    hoverinfo='skip', 
+    opacity = 0.5
+)
+fig.add_trace(gps_1e4s_line)
+
+# Add a horizontal line representing GNNS:1e4s
+gps_1e5s_line = go.Scatter(
+    x=[1e-3, 5e16],
+    y=[1.7e-13, 1e-13],
+    mode='lines',
+    line=dict(color='black', width=1.0, dash='dot'), 
+    name='GPS:1e5s',
+    showlegend=False,
+    hoverinfo='skip', 
+    opacity=0.5
+)
+fig.add_trace(gps_1e5s_line)
 
 # Add scatter plots for TAU_1e4s and TAU_1e3s with vertical lines
 for df_temp, tau_column, symbol_shape in zip([df_tau_1e4, df_tau_1e3], ['TAU_1e4s', 'TAU_1e3s'], ['circle', 'square']):
@@ -255,37 +271,49 @@ fig.add_annotation(
 )
 
 # Add annotation for GNNS:1s
+# fig.add_annotation(
+#     xref="paper", yref="y",
+#     x=0.01,
+#     y=-11.6,
+#     text="GNSS:1s",
+#     showarrow=False,
+#     align='left',
+#     font=dict(size=12, color='rgba(0, 0, 0, 0.8)')
+# )
+
+# add annotation for GPS:1e3s
 fig.add_annotation(
     xref="paper", yref="y",
-    x=0.01,
-    y=-11.6,
-    text="GNSS:1s",
+    x=0.001,
+    y=-10.65,
+    text="GPS:1e3s",
     showarrow=False,
     align='left',
     font=dict(size=12, color='rgba(0, 0, 0, 0.8)')
 )
 
-# add annotation for GNNS:1e3s
-# fig.add_annotation(
-#     xref="paper", yref="y",
-#     x=0.01,
-#     y=-13.2,
-#     text="GNSS:1e3s",
-#     showarrow=False,
-#     align='left',
-#     font=dict(size=12, color='rgba(0, 0, 0, 0.8)')
-# )
+# Add annotation for GPS:1e4s
+fig.add_annotation(
+    xref="paper", yref="y",
+    x=0.001,
+    y=-11.65,
+    text="GPS:1e4s",
+    showarrow=False,
+    align='left',
+    font=dict(size=12, color='rgba(0, 0, 0, 0.8)')
+)
 
-# Add annotation for GNSS:1e4s
-# fig.add_annotation(
-#     xref="paper", yref="y",
-#     x=0.01,
-#     y=-14.2,
-#     text="GNSS:1e4s",
-#     showarrow=False,
-#     align='left',
-#     font=dict(size=12, color='rgba(0, 0, 0, 0.8)')
-# )
+# Add annotation for GPS:1e5s
+fig.add_annotation(
+    xref="paper", yref="y",
+    x=0.001,
+    y=-12.65,
+    text="GPS:1e5s",
+    showarrow=False,
+    align='left',
+    font=dict(size=12, color='rgba(0, 0, 0, 0.8)')
+)
+
 
 
 
@@ -348,6 +376,10 @@ fig2 = copy.deepcopy(fig)
 
 # Remove the first annotation
 fig2.layout.annotations = list(fig2.layout.annotations)[1:]
+
+# remove qr code
+fig2.layout.images = []
+
 
 # Adjust the x and y axis limits
 fig2.update_layout(
