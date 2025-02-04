@@ -57,7 +57,7 @@ fig = go.Figure()
 # Add a horizontal line representing GNNS:1s
 gnss_1s_line = go.Scatter(
     x=[1e-3, 5e16],
-    y=[4e-12, 4e-12],
+    y=[1.73e-8, 1.73e-8],
     mode='lines',
     line=dict(color='black', width=1.0, dash='dot'), 
     name='GNSS:1s',
