@@ -4,7 +4,7 @@
 - GNSS for 1 second
 Title: SWAP Data Plotting Script
 Author: Ben White
-Date: 2024
+Date: 2025
 Description: 
 This script reads SWAP data from a CSV file, filters the data, and generates an interactive 
 plot using Plotly. The plot includes markers for different TAU values, a shaded region for 
@@ -264,7 +264,7 @@ fig.add_annotation(
     xref="paper", yref="paper",
     x=1.0,
     y=-0.0,
-    text="B. White 2024",
+    text="B. White 2025",
     showarrow=False,
     align='right',
     font=dict(size=12, color='rgba(0, 0, 0, 0.8)')
