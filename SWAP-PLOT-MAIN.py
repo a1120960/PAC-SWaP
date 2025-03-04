@@ -83,7 +83,7 @@ fig.add_trace(gps_1e3s_line)
 # Add a horizontal line representing GNNS:1e4s
 gps_1e4s_line = go.Scatter(
     x=[1e-3, 5e16],
-    y=[1.7e-12, 1e-12],
+    y=[1.7e-12, 1.7e-12],
     mode='lines',
     line=dict(color='black', width=1.0, dash='dot'), 
     name='GPS:1e4s',
@@ -96,7 +96,7 @@ fig.add_trace(gps_1e4s_line)
 # Add a horizontal line representing GNNS:1e4s
 gps_1e5s_line = go.Scatter(
     x=[1e-3, 5e16],
-    y=[1.7e-13, 1e-13],
+    y=[1.7e-13, 1.7e-13],
     mode='lines',
     line=dict(color='black', width=1.0, dash='dot'), 
     name='GPS:1e5s',
