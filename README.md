@@ -13,8 +13,8 @@ Portable Atomic Clocks - Size, Weight and Power (SWaP) information, data and cod
 # LICENSE AND ATTRIBUTION
 All information and materials provided in this repository are licensed under the [CC-BY-SA-4.0 license](https://github.com/a1120960/PAC-SWaP?tab=readme-ov-file#). You are free to share and adapt the content as long as you provide appropriate credit, indicate any changes made, and distribute your contributions under the same license. 
 
-For citation purposes, please reference our arXiv paper (UPCOMING): 
-
+For citation purposes, please reference our arXiv report: 
+[The SWaP plot: Visualising the performance of portable atomic clocks as a function of their size, weight and power](https://arxiv.org/abs/2409.08484)
 
 # PURPOSE
 - This repository is intended to be a resource for those interested and or involved in the growing world of portable atomic clocks. In particular the main focus is on the new generation of portable optical clocks. 
