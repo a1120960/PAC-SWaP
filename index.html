@@ -106,7 +106,7 @@ NOTE: For the best viewing experience its recommended viewing this website using
 </p>
 
 
-<iframe id='Fig1' title="Main SWaP vs Performance Plot for Portable Atomic Clocks" src="SWAP-PLOT-MAIN.html" width="1000" height="650">
+<iframe id='Fig1' title="Main SWaP vs Performance Plot for Portable Atomic Clocks" src="SWAP-PLOT-MAIN.html" width="1000" height="650" loading="lazy">
 </iframe>
 <p class="caption"><strong>Figure 1:</strong> The full SWaP plot. Clock performance - ADEV for 1s (coloured diamond), 1000s (grey square) or 10,000s (grey circle) - as a function of total system size, weight and power (cm<sup>3</sup>kgW). Dotted horizontal lines show performance indicative of GPS timing at 1e3s, 1e4s, and 1e5s. The plot is becoming quite cluttered in the central region, for best results zoom or hover of the data points of interest. <strong>Note: SLS Sr+ clock performance calculated from a two-pont self comparison see reference for more information.</strong> </p>
 
@@ -127,7 +127,7 @@ NOTE: For the best viewing experience its recommended viewing this website using
 
 <p class="text-block"> The main SWaP plot shows expected performance for time derived from Global Positioning System (GPS) signals. GPS has a claimed time transfer accuracy of &le; 30ns (<a href="https://www.gps.gov/systems/gps/performance/accuracy/">more information</a>). Here we assume a single shot performance of 10ns for a modern GPS receiver. Time transfer is possible from different GPS signals as well as other Global Navigation Satellite Systems (GNSS: <a href="https://www.advancednavigation.com/tech-articles/global-navigation-satellite-system-gnss-and-satellite-navigation-explained/">more information</a>), and so expected performance will vary depending on signal source and receiver. The performance indicated here is just a rough guide as to what is possible for comparison. 
 </p>
-<iframe id = 'Fig2' src="SWAP-PLOT-FOCUS.html" width="1000" height="650">
+<iframe id = 'Fig2' src="SWAP-PLOT-FOCUS.html" width="1000" height="650" loading="lazy">
 </iframe>
 <p class="caption"><strong>Figure 2:</strong> Focussed SWaP plot. Performance as a function of SWaP, the focus is now on the region that is populated by devices that have a SWaP value between that of a Playstation and a family fridge. Note: The plot is becoming quite cluttered in this central region, for best results hover of the data points of interest. </p>
 
@@ -140,8 +140,8 @@ NOTE: For the best viewing experience its recommended viewing this website using
 <p class="text-block"> All data for these plots has been sourced from the <a href="#references">references</a> provided. Where necessary any extra information has been obtained via communication with the researchers and or manufacturers. 
 </p>
 
-<iframe id = 'Fig_cutting_edge_ADEV' src="SWAP-ADEV.html" width="1000" height="650"></iframe>
-</iframe>
+<iframe id = 'Fig_cutting_edge_ADEV' src="SWAP-ADEV.html" width="1000" height="650" loading="lazy"></iframe>
+
 <p class="caption"><strong>Figure 3:</strong> Performance of the latest portable atomic clocks. The performance of the clocks from the previous plots are displayed as traditional ADEV plots, showing fractional frequency stability as a function of integration time. Legend is sorted by ADEV at 1 second performance. Each clock is selectable from the legend. Double clicking a clock on the legend will isolate that clocks trace, other clocks can then be selected to compare performance. Hovering over a marker will reveal extra information about the clock where available. Click and drag your mouse to select a region to zoom in on.</p>
 
 <p class="text-block"><a href="#Fig_cutting_edge_ADEV">Figure 3</a> shows the fractional frequency stability of each clock as a function of the measurement time. I originally collected this performance data from the papers for three integration times - 1s, 1000s and 10000s. These integration times were chosen as they were commonly reported for most systems, and were used to initially to create the main SWaP plot <a href="#Fig1">(Figure 1)</a>. I will at some stage return to the original papers and extract the other integration times, where available, and flesh this plot out with greater resolution.
@@ -155,7 +155,7 @@ NOTE: For the best viewing experience its recommended viewing this website using
 <p class="text-block"> The units of SWaP end up creating extremely large numbers, so make the true scale of a devices SWaP more accessible, the SWaP from the above plots can be broken down and plotted separately for each of the individual components: Size, Weight and Power. 
 </p>
 
-<iframe id = 'Fig3' src="SWAP-PLOT-SLIDERS.html" width="1000" height="650">
+<iframe id = 'Fig3' src="SWAP-PLOT-SLIDERS.html" width="1000" height="650" loading="lazy">
 </iframe>
 <p class="caption"><strong>Figure 4:</strong> Separately plotting the 1 second ADEV of each clock as a function of its Size, Weight and Power. Units for Size and Weight can be changed using the sliders below each plot </p>
 
@@ -177,8 +177,8 @@ NOTE: For the best viewing experience its recommended viewing this website using
 <p class="text-block"> This section details the SWaP and performance of currently available commercial atomic clocks. This selection of clocks is inspired by table 1, on page 8 of the <a href="https://eprintspublications.npl.co.uk/9987/"> NPL holdover atomic clock landscape review.</a> This list of clocks includes some overlap with devices in the previous sections, as well as the addition of crystal oscillators.
 </p>
 
-<iframe id = 'Fig_commercial_swap' src="commercial_swap.html" width="1000" height="500"></iframe>
-</iframe>
+<iframe id = 'Fig_commercial_swap' src="commercial_swap.html" width="1000" height="500" loading="lazy"></iframe>
+
 <p class="caption"><strong>Figure 5:</strong> Performance at 1sec integration time as a function of device SWaP for commercially available clocks. Clocks are color coded according to categories defined in the original NPL document. Hovering over a marker will reveal more information about each device, including the technology the clock is based on, and performance at longer integration times.<a href="#Fig_commercial"> Figure 6</a> provides more detail on each clocks performance. </p>
 
 <p class="text-block">
@@ -189,8 +189,8 @@ NOTE: For the best viewing experience its recommended viewing this website using
 <p class="text-block">The 1 second ADEV doesn't describe the whole picture of commercial clock performance. Thankfully as these are commercial devices, spec sheets with data are readily available, allowing us to visualise the performance of each clock over longer integration times.</p>
 
 
-<iframe id = 'Fig_commercial' src="commercial_atomic_clock_performance.html" width="1000" height="800"></iframe>
-</iframe>
+<iframe id = 'Fig_commercial' src="commercial_atomic_clock_performance.html" width="1000" height="800" loading="lazy"></iframe>
+
 <p class="caption"><strong>Figure 6:</strong> Fractional frequency stability of commercially available atomic clocks. Legend is sorted by ADEV at 1 second performance. Each clock is selectable from the legend. Double clicking a clock on the legend will isolate that clocks trace, other clocks can then be selected to compare performance. Hovering over a marker will reveal extra information about the clock where available. Click and drag your mouse to select a region to zoom in on.</p>
 
 
@@ -211,8 +211,8 @@ NOTE: For the best viewing experience its recommended viewing this website using
     <p>Combining the ADEV plots from the latest portable atomic clocks with those commercially available.</p> 
 
 
-<iframe id = 'Fig_combined_ADEV' src="MONSTER-ADEV.html" width="1000" height="780"></iframe>
-</iframe>
+<iframe id = 'Fig_combined_ADEV' src="MONSTER-ADEV.html" width="1000" height="780" loading="lazy"></iframe>
+
 <p class="caption"><strong>Figure 7:</strong> Combined cutting edge and commercial clocks ADEV plots. Legend is sorted by ADEV at 1 second performance. Each clock is selectable from the legend. Double clicking a clock on the legend will isolate that clocks trace, other clocks can then be selected to compare performance. Hovering over a marker will reveal extra information about the clock where available. Click and drag your mouse to select a region to zoom in on</p>
 
 <div class="text-block">
