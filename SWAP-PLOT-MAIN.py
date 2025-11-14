@@ -366,7 +366,15 @@ config = {
 }
 
 # Export to an HTML file with the config
-pio.write_html(fig, 'SWAP-PLOT-MAIN.html', config=config)
+# pio.write_html(fig, 'SWAP-PLOT-MAIN.html', config=config)
+
+pio.write_html(
+    fig, 
+    'SWAP-PLOT-MAIN.html', 
+    config=config,
+    full_html=False,
+    include_plotlyjs='cdn'
+)
 
 
 
@@ -457,4 +465,12 @@ config2 = {
 
 
 # write html file for focused plot
-pio.write_html(fig2, 'SWAP-PLOT-FOCUS.html', config=config2)
+# pio.write_html(fig2, 'SWAP-PLOT-FOCUS.html', config=config2)
+
+pio.write_html(
+    fig2, 
+    'SWAP-PLOT-FOCUS.html', 
+    config=config2,
+    full_html=False,
+    include_plotlyjs='cdn'
+)
