@@ -106,6 +106,13 @@ NOTE: For the best viewing experience its recommended viewing this website using
 </p>
 
 
+
+<p class="text-block">
+<em>
+ANOTHER NOTE: Currently only the main swap plot has data for the latest devices. Over the next few months I plan to update all of the plots on the page, combine the research and commercial clock databases and streamline the code to make the repo both tidier and more complete. 
+</em>
+</p>
+
 <iframe id='Fig1' title="Main SWaP vs Performance Plot for Portable Atomic Clocks" src="SWAP-PLOT-MAIN.html" width="1000" height="650" loading="lazy">
 </iframe>
 <p class="caption"><strong>Figure 1:</strong> The full SWaP plot. Clock performance - ADEV for 1s (coloured diamond), 1000s (grey square) or 10,000s (grey circle) - as a function of total system size, weight and power (cm<sup>3</sup>kgW). Dotted horizontal lines show performance indicative of GPS timing at 1e3s, 1e4s, and 1e5s. The plot is becoming quite cluttered in the central region, for best results zoom or hover of the data points of interest. <strong>Note: SLS Sr+ clock performance calculated from a two-pont self comparison see reference for more information.</strong> </p>
@@ -222,10 +229,10 @@ NOTE: For the best viewing experience its recommended viewing this website using
 <h2 id="updates"> Updates</h2>
 
 <div class="text-block">
+    <p>2026-02-15: Added NIST YbT</p>
     <p>2025-11-03: Added SLS Sr+ clock</p>
     <p>2025-09-17: Added Adtran OSA-3300, and links to known but unconfirmed clocks</p>
-    <p>2025-02-13: Added QuantX Tempo to main SWaP plot.</p> 
-    <p>2024-09-11: Added Commercial clock plot & ADEV plots.</p> 
+
 
 
 
@@ -241,13 +248,13 @@ NOTE: For the best viewing experience its recommended viewing this website using
 
 <div class="references">
 <p>
-    1. CSAC SA.45, <a href="https://www.microsemi.com/product-directory/embedded-clocks-frequency-references/5207-space-csac">https://www.microsemi.com/product-directory/embedded-clocks-frequency-references/5207-space-csac</a>
+    1. Microsemi CSAC SA.45, <a href="https://www.microsemi.com/product-directory/embedded-clocks-frequency-references/5207-space-csac">https://www.microsemi.com/product-directory/embedded-clocks-frequency-references/5207-space-csac</a>
 </p>
 <p>
-    2. PRS10, <a href="https://www.thinksrs.com/products/prs10.html">https://www.thinksrs.com/products/prs10.html</a>
+    2. SRS PRS10, <a href="https://www.thinksrs.com/products/prs10.html">https://www.thinksrs.com/products/prs10.html</a>
 </p>
 <p>
-    3. 5071A, <a href="https://www.microchip.com/en-us/products/clock-and-timing/components/atomic-clocks/atomic-system-clocks/cesium-time/5071a">https://www.microchip.com/en-us/products/clock-and-timing/components/atomic-clocks/atomic-system-clocks/cesium-time/5071a</a>
+    3. Microchip 5071A, <a href="https://www.microchip.com/en-us/products/clock-and-timing/components/atomic-clocks/atomic-system-clocks/cesium-time/5071a">https://www.microchip.com/en-us/products/clock-and-timing/components/atomic-clocks/atomic-system-clocks/cesium-time/5071a</a>
 </p>
 <p>
     4. MHM Maser, <a href="https://www.microchip.com/en-us/products/clock-and-timing/components/atomic-clocks/atomic-system-clocks/mhm-2020-hydrogen-masers">https://www.microchip.com/en-us/products/clock-and-timing/components/atomic-clocks/atomic-system-clocks/mhm-2020-hydrogen-masers</a>
@@ -259,10 +266,10 @@ NOTE: For the best viewing experience its recommended viewing this website using
     6. MUCLOCK, <a href="https://www.muquans.com/product/muclock/">https://www.muquans.com/product/muclock/</a>
 </p>
 <p>
-    7. cRb, <a href="https://spectradynamics.com/products/crb-clock/">https://spectradynamics.com/products/crb-clock/</a>
+    7. Spectradynamics cRb, <a href="https://spectradynamics.com/products/crb-clock/">https://spectradynamics.com/products/crb-clock/</a>
 </p>
 <p>
-    8. DSAC, <a href="https://doi.org/10.1109/TUFFC.2016.2543738">https://doi.org/10.1109/TUFFC.2016.2543738</a>
+    8. JPL DSAC, <a href="https://doi.org/10.1109/TUFFC.2016.2543738">https://doi.org/10.1109/TUFFC.2016.2543738</a>
 </p>
 <p>
     10. VECTOR ATOMIC EG-30, <a href="https://vectoratomic.com">https://vectoratomic.com</a>
@@ -286,7 +293,7 @@ NOTE: For the best viewing experience its recommended viewing this website using
     16. OPTICLOCK, <a href="https://www.opticlock.de/en/info">https://www.opticlock.de/en/info</a>
 </p>
 <p>
-    17. IPAS YB vap cell, IPAS Rb vap cell, AFRL Rb, <a href="https://doi.org/10.1038/s41467-025-61140-2">https://doi.org/10.1038/s41467-025-61140-2</a>
+    17. IPAS Yb vap cell, IPAS Rb vap cell, AFRL Rb, <a href="https://doi.org/10.1038/s41467-025-61140-2">https://doi.org/10.1038/s41467-025-61140-2</a>
 </p>
 
 <p>
@@ -308,7 +315,11 @@ NOTE: For the best viewing experience its recommended viewing this website using
 
 
 <p>
-    22. Stable Laser Systems (SLS) Sr+ ion clock, <a href="https://stablelasers.com">https://stablelasers.com</a> <strong>Note: clock measurements are made using the self comparison technique described by Dub&eacute; et al. <a href="https://doi.org/10.1103/PhysRevA.92.042119">https://doi.org/10.1103/PhysRevA.92.042119</a></strong>
+    22. Stable Laser Systems (SLS) Sr+ ion clock, <a href="https://stablelasers.com">https://stablelasers.com</a> Note: clock measurements are made using the self comparison technique described by Dub&eacute; et al. <a href="https://doi.org/10.1103/PhysRevA.92.042119">https://doi.org/10.1103/PhysRevA.92.042119</a>
+</p>
+
+<p>
+    23. NIST ytterbium lattice clock (NIST YbT), <a href="https://doi.org/10.1364/OL.543310">https://doi.org/10.1364/OL.543310</a> 
 </p>
 
 
